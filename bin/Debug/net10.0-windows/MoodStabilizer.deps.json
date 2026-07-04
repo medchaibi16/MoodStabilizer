@@ -1,0 +1,386 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "MoodStabilizer/1.0.0": {
+        "dependencies": {
+          "Microsoft.ML.OnnxRuntime": "1.24.4",
+          "NAudio": "2.3.0",
+          "Npgsql": "8.0.1",
+          "OpenCvSharp4": "4.13.0.20260330",
+          "OpenCvSharp4.Extensions": "4.13.0.20260330",
+          "OpenCvSharp4.runtime.win": "4.13.0.20260302"
+        },
+        "runtime": {
+          "MoodStabilizer.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.ML.OnnxRuntime/1.24.4": {
+        "dependencies": {
+          "Microsoft.ML.OnnxRuntime.Managed": "1.24.4"
+        },
+        "runtimeTargets": {
+          "runtimes/android/native/onnxruntime.aar": {
+            "rid": "android",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ios/native/onnxruntime.xcframework.zip": {
+            "rid": "ios",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm64/native/libonnxruntime.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm64/native/libonnxruntime_providers_shared.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libonnxruntime.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libonnxruntime_providers_shared.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-arm64/native/libonnxruntime.dylib": {
+            "rid": "osx-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/onnxruntime.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "1.24.26.316"
+          },
+          "runtimes/win-arm64/native/onnxruntime.lib": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/onnxruntime_providers_shared.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "1.24.26.316"
+          },
+          "runtimes/win-arm64/native/onnxruntime_providers_shared.lib": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/onnxruntime.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.24.26.316"
+          },
+          "runtimes/win-x64/native/onnxruntime.lib": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/onnxruntime_providers_shared.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.24.26.316"
+          },
+          "runtimes/win-x64/native/onnxruntime_providers_shared.lib": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.ML.OnnxRuntime.Managed/1.24.4": {
+        "dependencies": {
+          "System.Numerics.Tensors": "9.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.ML.OnnxRuntime.dll": {
+            "assemblyVersion": "1.24.4.0",
+            "fileVersion": "1.24.4.0"
+          }
+        }
+      },
+      "NAudio/2.3.0": {
+        "dependencies": {
+          "NAudio.Asio": "2.3.0",
+          "NAudio.Core": "2.3.0",
+          "NAudio.Midi": "2.3.0",
+          "NAudio.Wasapi": "2.3.0",
+          "NAudio.WinForms": "2.3.0",
+          "NAudio.WinMM": "2.3.0"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/NAudio.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
+          }
+        }
+      },
+      "NAudio.Asio/2.3.0": {
+        "dependencies": {
+          "NAudio.Core": "2.3.0"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/NAudio.Asio.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
+          }
+        }
+      },
+      "NAudio.Core/2.3.0": {
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Core.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
+          }
+        }
+      },
+      "NAudio.Midi/2.3.0": {
+        "dependencies": {
+          "NAudio.Core": "2.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Midi.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
+          }
+        }
+      },
+      "NAudio.Wasapi/2.3.0": {
+        "dependencies": {
+          "NAudio.Core": "2.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Wasapi.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
+          }
+        }
+      },
+      "NAudio.WinForms/2.3.0": {
+        "dependencies": {
+          "NAudio.WinMM": "2.3.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/NAudio.WinForms.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
+          }
+        }
+      },
+      "NAudio.WinMM/2.3.0": {
+        "dependencies": {
+          "NAudio.Core": "2.3.0"
+        },
+        "runtime": {
+          "lib/net6.0/NAudio.WinMM.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
+          }
+        }
+      },
+      "Npgsql/8.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Npgsql.dll": {
+            "assemblyVersion": "8.0.1.0",
+            "fileVersion": "8.0.1.0"
+          }
+        }
+      },
+      "OpenCvSharp4/4.13.0.20260330": {
+        "runtime": {
+          "lib/net8.0/OpenCvSharp.dll": {
+            "assemblyVersion": "4.13.0.0",
+            "fileVersion": "4.13.0.0"
+          }
+        }
+      },
+      "OpenCvSharp4.Extensions/4.13.0.20260330": {
+        "dependencies": {
+          "OpenCvSharp4": "4.13.0.20260330"
+        },
+        "runtime": {
+          "lib/net8.0/OpenCvSharp.Extensions.dll": {
+            "assemblyVersion": "4.13.0.0",
+            "fileVersion": "4.13.0.0"
+          }
+        }
+      },
+      "OpenCvSharp4.runtime.win/4.13.0.20260302": {
+        "runtimeTargets": {
+          "runtimes/win-x64/native/OpenCvSharpExtern.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/opencv_videoio_ffmpeg4130_64.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "2025.12.0.0"
+          }
+        }
+      },
+      "System.Numerics.Tensors/9.0.0": {
+        "runtime": {
+          "lib/net9.0/System.Numerics.Tensors.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MoodStabilizer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-arDBqTgFCyS0EvRV7O3MZturChstm50OJ0y9bDJvAcmEPJm0FFpFyjU/JLYyStNGGey081DvnQYlncNX5SJJGA==",
+      "path": "microsoft.extensions.logging.abstractions/8.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.ML.OnnxRuntime/1.24.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-895huFBVrZkZEGjlsxBSZD3p6D32Cdz6q8DM9UcUps2YKFYdFR8TefaTggFBUTYlvcSyfNTpmOOU/ZkeL69izw==",
+      "path": "microsoft.ml.onnxruntime/1.24.4",
+      "hashPath": "microsoft.ml.onnxruntime.1.24.4.nupkg.sha512"
+    },
+    "Microsoft.ML.OnnxRuntime.Managed/1.24.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-e5jsEo0HcCKDMkuRsMSievKoMv10Odv4MGmxbCin8SEm4Pto1qTpwti47xRwMtk9I/zVvfAiFIWquOq/0+22DA==",
+      "path": "microsoft.ml.onnxruntime.managed/1.24.4",
+      "hashPath": "microsoft.ml.onnxruntime.managed.1.24.4.nupkg.sha512"
+    },
+    "NAudio/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xN+Lzlu9DmXqBiL6XkP0VZmgTxZPdSGjVSWtKG9HKuar3LhIYNOIYQETieigS+QDS+nrs1QmHbBWWOru0nWA5A==",
+      "path": "naudio/2.3.0",
+      "hashPath": "naudio.2.3.0.nupkg.sha512"
+    },
+    "NAudio.Asio/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I+rAAPT8vmSEw4d4ie+AoSkrvNK6ylRrXznnjQKS+qZgTA9Jnt1Pxe0EaU8nXxOOq5h8ucBSWccBEw6I/J0nkQ==",
+      "path": "naudio.asio/2.3.0",
+      "hashPath": "naudio.asio.2.3.0.nupkg.sha512"
+    },
+    "NAudio.Core/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jMd7r6dB6tAtXhOYL58ntPqwERNm1/Rhw5MKOIYvsnXzuX+PTGsa2VMam6n0npZYSwlSidKa4GAm4bFcXFUlcg==",
+      "path": "naudio.core/2.3.0",
+      "hashPath": "naudio.core.2.3.0.nupkg.sha512"
+    },
+    "NAudio.Midi/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t8wvPFPHHQOHhoNMCaDE8OiYZoJuxmY4H6UPBtmnf+xx7oQuajFCqlG4Q00ID+tiEyj471WeVb4Nkylr4tDoow==",
+      "path": "naudio.midi/2.3.0",
+      "hashPath": "naudio.midi.2.3.0.nupkg.sha512"
+    },
+    "NAudio.Wasapi/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-y5K2BxrLnvohgu5znzg5wRsai3YcuNXfrpo68i7PmCQqpK5MC/R24e5aO3OyN/XhfRr12e0QYV0OnUWEHi5SzA==",
+      "path": "naudio.wasapi/2.3.0",
+      "hashPath": "naudio.wasapi.2.3.0.nupkg.sha512"
+    },
+    "NAudio.WinForms/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vyKqFUlAZrZ0QPcCM1T+zimjYgC1cNDloHaiOdtV4S1eK4AGu3Dz1EE4yy/WgcneJwQNjGFaELY7b2TsL+g56w==",
+      "path": "naudio.winforms/2.3.0",
+      "hashPath": "naudio.winforms.2.3.0.nupkg.sha512"
+    },
+    "NAudio.WinMM/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5G1dRjsZm50T3luyuqcmI2BSvj3K4ZJaD/x776/0Epj88qOsOryDZG40+MufwIk1UFJSFWhRobBqtJYFc8Ss4g==",
+      "path": "naudio.winmm/2.3.0",
+      "hashPath": "naudio.winmm.2.3.0.nupkg.sha512"
+    },
+    "Npgsql/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/XQX6n2gKQPnRoP5AhOnz33qL5V6CEY2vqluHPIvK4VZqY/sE/dHOFj+/8Ok7Y5Cbkj6/OZOFLZCiaKcryhS9A==",
+      "path": "npgsql/8.0.1",
+      "hashPath": "npgsql.8.0.1.nupkg.sha512"
+    },
+    "OpenCvSharp4/4.13.0.20260330": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fCoLdwfQfiBKpaDJNE8R48mXlwaMauvbHdX0q12Zs8+HnKQvUu6Ep0zQTSSVXv2hEvOGPZMJKepOXuWJDoLaTA==",
+      "path": "opencvsharp4/4.13.0.20260330",
+      "hashPath": "opencvsharp4.4.13.0.20260330.nupkg.sha512"
+    },
+    "OpenCvSharp4.Extensions/4.13.0.20260330": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t838BwiL+FNmAq9CFYG6hbbcviicrURqWFXhIC3YSv1EGzXjl21N3BfCHtmjixBMvST++JFjoruVseTBgkjzGQ==",
+      "path": "opencvsharp4.extensions/4.13.0.20260330",
+      "hashPath": "opencvsharp4.extensions.4.13.0.20260330.nupkg.sha512"
+    },
+    "OpenCvSharp4.runtime.win/4.13.0.20260302": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VC2n9CVZQvAm+p0NXW077e/MGkDBraT3ye4FdInRPpxTVK64DwGnLuIncS8mwrkVcKhqh82/KgcDgKXNWDndAA==",
+      "path": "opencvsharp4.runtime.win/4.13.0.20260302",
+      "hashPath": "opencvsharp4.runtime.win.4.13.0.20260302.nupkg.sha512"
+    },
+    "System.Numerics.Tensors/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hyJB4UlpAi19Xr9AXzu2NuagKC4lPfHObNMEAA0HmqFz2rX7wKgzeYzO/jM/eBHDhnUGFFEjk5cOoJaxqg5J4A==",
+      "path": "system.numerics.tensors/9.0.0",
+      "hashPath": "system.numerics.tensors.9.0.0.nupkg.sha512"
+    }
+  }
+}

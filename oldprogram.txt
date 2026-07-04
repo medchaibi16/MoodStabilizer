@@ -1,0 +1,191 @@
+using System;
+using System.IO;
+using System.Collections.Generic;
+using System.Linq;
+using MoodStabilizer;
+using OpenCvSharp;
+
+namespace MoodStabilizerApp
+{
+    class Program
+    {
+        [STAThread]
+        static void Main()
+        {
+            // Path to your test video
+            string videoPath = @"C:\Users\mohamed chaibi\Downloads\pfe\ActuallApp\MoodStabilizer\MoodStabilizer\assets\Ses01M_impro04.avi";
+
+            Console.WriteLine("\n╔════════════════════════════════════════════════════════════╗");
+            Console.WriteLine("║         MOOD STABILIZER - Emotion Recognition             ║");
+            Console.WriteLine("╚════════════════════════════════════════════════════════════╝");
+
+            // Step 1: Initialize recognizer
+            var recognizer = new EmotionRecognizer(videoPath);
+
+            // Step 2: Validate video
+            if (!recognizer.ValidateVideo())
+            {
+                Console.WriteLine("\n✗ Failed to load video. Exiting.");
+                Console.ReadKey();
+                return;
+            }
+
+            // Step 3: Load models
+            if (!recognizer.LoadModels())
+            {
+                Console.WriteLine("\n✗ Failed to load models. Exiting.");
+                Console.ReadKey();
+                return;
+            }
+
+            Console.WriteLine("\n" + new string('=', 60));
+            Console.WriteLine("✓ All systems ready!");
+            Console.WriteLine("=" + new string('=', 59));
+            Console.WriteLine("\nPress any key to start processing...");
+            Console.ReadKey();
+
+            // Step 4: Process video in 5-second windows
+            Console.WriteLine("\n\n[Processing Video - 5 Second Windows]");
+
+            // List to store raw results for aggregation
+            List<(int window, int startTime, int endTime, string emotion, float confidence, string audioVote, string faceVote)> rawResults =
+                new List<(int, int, int, string, float, string, string)>();
+
+            using (var cap = new VideoCapture(videoPath))
+            {
+                if (!cap.IsOpened())
+                {
+                    Console.WriteLine("✗ Cannot open video for processing");
+                    recognizer.Dispose();
+                    Console.ReadKey();
+                    return;
+                }
+
+                double fps = cap.Get(VideoCaptureProperties.Fps);
+                int frameCount = (int)cap.Get(VideoCaptureProperties.FrameCount);
+                int framesPerWindow = (int)(fps * 5); // 5-second window in frames
+
+                Console.WriteLine($"FPS: {fps}, Total frames: {frameCount}");
+                Console.WriteLine($"Processing in {framesPerWindow}-frame windows (5 seconds each)...\n");
+
+                int windowIndex = 0;
+
+                for (int startFrame = 0; startFrame < frameCount - framesPerWindow; startFrame += framesPerWindow)
+                {
+                    Console.WriteLine($"\n{'=' * 60}");
+                    Console.WriteLine($"WINDOW {windowIndex + 1} (Frames {startFrame}-{startFrame + framesPerWindow})");
+                    Console.WriteLine($"{'=' * 60}");
+
+                    // Process audio
+                    Console.WriteLine($"\n[Audio Processing]");
+                    float[]? audioSamples = recognizer.ProcessAudioWindow(videoPath, windowIndex);
+                    float[]? audioLogits = audioSamples != null ? recognizer.InferenceAudio(audioSamples) : null;
+
+                    // Process video (face)
+                    Console.WriteLine($"\n[Face Processing]");
+                    float[]? faceLogits = recognizer.ProcessVideoWindow(cap, startFrame);
+
+                    // Fuse predictions
+                    if (audioLogits != null && faceLogits != null)
+                    {
+                        string emotion = recognizer.FusePredictions(audioLogits, faceLogits);
+                        float confidence = recognizer.GetLastConfidence();
+                        string audioVote = recognizer.GetLastAudioEmotion();
+                        string faceVote = recognizer.GetLastFaceEmotion();
+
+                        Console.WriteLine($"\n✓ Window {windowIndex + 1} Result: {emotion.ToUpper()}");
+
+                        // Store raw result
+                        int startTime = windowIndex * 5;
+                        int endTime = startTime + 5;
+                        rawResults.Add((windowIndex + 1, startTime, endTime, emotion, confidence, audioVote, faceVote));
+                    }
+
+                    windowIndex++;
+                }
+            }
+
+            // Aggregate consecutive emotions with same emotion
+            var aggregatedResults = AggregateConsecutiveEmotions(rawResults);
+
+            // Print results table
+            Console.WriteLine("\n\n" + new string('=', 170));
+            Console.WriteLine("EMOTION RECOGNITION RESULTS - AGGREGATED SUMMARY TABLE");
+            Console.WriteLine(new string('=', 170));
+            PrintResultsTable(aggregatedResults);
+
+            Console.WriteLine("\n" + new string('=', 60));
+            Console.WriteLine("✓ Processing complete!");
+            Console.WriteLine("=" + new string('=', 59));
+            Console.WriteLine("\nPress any key to exit...");
+            Console.ReadKey();
+            recognizer.Dispose();
+        }
+
+        /// <summary>
+        /// Aggregates consecutive emotions of the same type into a single row
+        /// </summary>
+        static List<(int window, int startTime, int endTime, string emotion, float avgConfidence, string audioVote, string faceVote, int count)> 
+            AggregateConsecutiveEmotions(List<(int window, int startTime, int endTime, string emotion, float confidence, string audioVote, string faceVote)> rawResults)
+        {
+            if (rawResults.Count == 0)
+                return new List<(int, int, int, string, float, string, string, int)>();
+
+            var aggregated = new List<(int, int, int, string, float, string, string, int)>();
+            var currentGroup = rawResults[0];
+            float confidenceSum = rawResults[0].confidence;
+            int count = 1;
+            string audioVote = rawResults[0].audioVote;
+            string faceVote = rawResults[0].faceVote;
+
+            for (int i = 1; i < rawResults.Count; i++)
+            {
+                if (rawResults[i].emotion == currentGroup.emotion)
+                {
+                    // Same emotion, continue aggregating
+                    currentGroup.endTime = rawResults[i].endTime;
+                    confidenceSum += rawResults[i].confidence;
+                    count++;
+                }
+                else
+                {
+                    // Different emotion, save the current group and start a new one
+                    float avgConfidence = confidenceSum / count;
+                    aggregated.Add((currentGroup.window, currentGroup.startTime, currentGroup.endTime, 
+                        currentGroup.emotion, avgConfidence, audioVote, faceVote, count));
+
+                    currentGroup = rawResults[i];
+                    confidenceSum = rawResults[i].confidence;
+                    count = 1;
+                    audioVote = rawResults[i].audioVote;
+                    faceVote = rawResults[i].faceVote;
+                }
+            }
+
+            // Add the last group
+            float finalAvgConfidence = confidenceSum / count;
+            aggregated.Add((currentGroup.window, currentGroup.startTime, currentGroup.endTime, 
+                currentGroup.emotion, finalAvgConfidence, audioVote, faceVote, count));
+
+            return aggregated;
+        }
+
+        static void PrintResultsTable(List<(int window, int startTime, int endTime, string emotion, float avgConfidence, string audioVote, string faceVote, int count)> results)
+        {
+            // Header
+            Console.WriteLine($"| {"Time Range",-15} | {"Duration",-12} | {"Emotion",-15} | {"Avg Conf",-10} | {"Windows",-8} | {"Audio AI",-15} | {"Face AI",-15} |");
+            Console.WriteLine(new string('-', 170));
+
+            foreach (var result in results)
+            {
+                string timeRange = $"{result.startTime}-{result.endTime}s";
+                string duration = $"{result.endTime - result.startTime}s";
+                string windowCount = result.count == 1 ? "1 window" : $"{result.count} windows";
+                
+                Console.WriteLine($"| {timeRange,-15} | {duration,-12} | {result.emotion.ToUpper(),-15} | {result.avgConfidence:F3,-10} | {windowCount,-8} | {result.audioVote.ToUpper(),-15} | {result.faceVote.ToUpper(),-15} |");
+            }
+
+            Console.WriteLine(new string('=', 170));
+        }
+    }
+}

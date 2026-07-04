@@ -1,0 +1,1721 @@
+{
+  "experiment_metadata": {
+    "total_frames": 90,
+    "video_files_processed": 3,
+    "start_time": "2026-05-23T13:14:41.2733697+01:00",
+    "end_time": "2026-05-23T13:18:59.539978+01:00",
+    "total_duration_seconds": 450
+  },
+  "frames": [
+    {
+      "frame_index": 0,
+      "timestamp": "2026-05-23T13:14:41.2733697+01:00",
+      "video_file": "Ses01F_impro03.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 1.2125086,
+        "position_y": 2.2935128,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "sadness",
+        "confidence": 0.2095963,
+        "audio_vote": "sadness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 1,
+      "timestamp": "2026-05-23T13:14:43.9095267+01:00",
+      "video_file": "Ses01F_impro03.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 1.2447094,
+        "position_y": 2.3292112,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.2000788,
+        "audio_vote": "neutral",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 2,
+      "timestamp": "2026-05-23T13:14:47.5056473+01:00",
+      "video_file": "Ses01F_impro03.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 1.1990082,
+        "position_y": 2.3241374,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19243068,
+        "audio_vote": "sadness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 3,
+      "timestamp": "2026-05-23T13:14:50.232175+01:00",
+      "video_file": "Ses01F_impro03.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 1.1767993,
+        "position_y": 2.3734045,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.1974464,
+        "audio_vote": "happiness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 4,
+      "timestamp": "2026-05-23T13:14:53.9560026+01:00",
+      "video_file": "Ses01F_impro03.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 1.1964654,
+        "position_y": 2.3661497,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.1974115,
+        "audio_vote": "sadness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 5,
+      "timestamp": "2026-05-23T13:14:56.3504814+01:00",
+      "video_file": "Ses01F_impro03.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 1.2801824,
+        "position_y": 2.3114555,
+        "is_moving": true,
+        "speed": 0.5
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19591746,
+        "audio_vote": "sadness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 6,
+      "timestamp": "2026-05-23T13:14:59.8303358+01:00",
+      "video_file": "Ses01F_impro03.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 1.3264704,
+        "position_y": 2.3024828,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19841966,
+        "audio_vote": "happiness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 7,
+      "timestamp": "2026-05-23T13:15:02.2753404+01:00",
+      "video_file": "Ses01F_impro03.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 1.4263561,
+        "position_y": 2.2977033,
+        "is_moving": true,
+        "speed": 0.5
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.1966817,
+        "audio_vote": "happiness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 8,
+      "timestamp": "2026-05-23T13:15:05.6676849+01:00",
+      "video_file": "Ses01F_impro03.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 1.4397798,
+        "position_y": 2.3335774,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19536611,
+        "audio_vote": "frustration",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 9,
+      "timestamp": "2026-05-23T13:15:08.1185379+01:00",
+      "video_file": "Ses01F_impro03.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 1.5390619,
+        "position_y": 2.3455377,
+        "is_moving": true,
+        "speed": 0.5
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19489262,
+        "audio_vote": "anger",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 10,
+      "timestamp": "2026-05-23T13:15:11.483986+01:00",
+      "video_file": "Ses01F_impro03.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 1.5355012,
+        "position_y": 2.3361464,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19947317,
+        "audio_vote": "happiness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 11,
+      "timestamp": "2026-05-23T13:15:13.9258402+01:00",
+      "video_file": "Ses01F_impro03.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 1.6354313,
+        "position_y": 2.332407,
+        "is_moving": true,
+        "speed": 0.5
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19931635,
+        "audio_vote": "frustration",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 12,
+      "timestamp": "2026-05-23T13:15:17.3012664+01:00",
+      "video_file": "Ses01F_impro03.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 1.6748149,
+        "position_y": 2.3433895,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.20044135,
+        "audio_vote": "happiness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 13,
+      "timestamp": "2026-05-23T13:15:19.740783+01:00",
+      "video_file": "Ses01F_impro03.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 1.7715921,
+        "position_y": 2.3685725,
+        "is_moving": true,
+        "speed": 0.5
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.20236927,
+        "audio_vote": "happiness",
+        "face_vote": "excited",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 14,
+      "timestamp": "2026-05-23T13:15:23.2185628+01:00",
+      "video_file": "Ses01F_impro03.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 1.9077473,
+        "position_y": 2.4011576,
+        "is_moving": true,
+        "speed": 0.7
+      },
+      "emotion_detection": {
+        "detected_emotion": "excited",
+        "confidence": 0.1960317,
+        "audio_vote": "neutral",
+        "face_vote": "excited",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 15,
+      "timestamp": "2026-05-23T13:15:25.6454207+01:00",
+      "video_file": "Ses01F_impro03.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 1.954404,
+        "position_y": 2.4896061,
+        "is_moving": true,
+        "speed": 0.5
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19592401,
+        "audio_vote": "frustration",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 16,
+      "timestamp": "2026-05-23T13:15:28.8826759+01:00",
+      "video_file": "Ses01F_impro03.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 1.942377,
+        "position_y": 2.5216491,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19815919,
+        "audio_vote": "anger",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 17,
+      "timestamp": "2026-05-23T13:15:31.2457157+01:00",
+      "video_file": "Ses01F_impro03.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.03585,
+        "position_y": 2.4861133,
+        "is_moving": true,
+        "speed": 0.5
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.1925835,
+        "audio_vote": "happiness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 18,
+      "timestamp": "2026-05-23T13:15:34.5767014+01:00",
+      "video_file": "Ses01F_impro03.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.0600142,
+        "position_y": 2.58315,
+        "is_moving": true,
+        "speed": 0.5
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19404908,
+        "audio_vote": "neutral",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 19,
+      "timestamp": "2026-05-23T13:15:37.0658833+01:00",
+      "video_file": "Ses01F_impro03.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.0143616,
+        "position_y": 2.5498044,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19807395,
+        "audio_vote": "sadness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 20,
+      "timestamp": "2026-05-23T13:15:40.5539089+01:00",
+      "video_file": "Ses01F_impro03.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.1081736,
+        "position_y": 2.5151732,
+        "is_moving": true,
+        "speed": 0.5
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19973171,
+        "audio_vote": "anger",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 21,
+      "timestamp": "2026-05-23T13:15:43.0137162+01:00",
+      "video_file": "Ses01F_impro03.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.138763,
+        "position_y": 2.5500934,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19377857,
+        "audio_vote": "anger",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 22,
+      "timestamp": "2026-05-23T13:15:46.3984028+01:00",
+      "video_file": "Ses01F_impro03.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.1030455,
+        "position_y": 2.575258,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.20003584,
+        "audio_vote": "anger",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 23,
+      "timestamp": "2026-05-23T13:15:48.807224+01:00",
+      "video_file": "Ses01F_impro03.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.138226,
+        "position_y": 2.5783834,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19536743,
+        "audio_vote": "anger",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 24,
+      "timestamp": "2026-05-23T13:15:52.1757606+01:00",
+      "video_file": "Ses01F_impro03.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.2379894,
+        "position_y": 2.5715086,
+        "is_moving": true,
+        "speed": 0.5
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.20075315,
+        "audio_vote": "anger",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 25,
+      "timestamp": "2026-05-23T13:15:53.8713541+01:00",
+      "video_file": "Ses01F_impro01.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.3963308,
+        "position_y": 2.5485306,
+        "is_moving": true,
+        "speed": 0.8
+      },
+      "emotion_detection": {
+        "detected_emotion": "anger",
+        "confidence": 0.21300635,
+        "audio_vote": "anger",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 26,
+      "timestamp": "2026-05-23T13:15:56.283017+01:00",
+      "video_file": "Ses01F_impro01.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.381802,
+        "position_y": 2.5267863,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.20533502,
+        "audio_vote": "happiness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 27,
+      "timestamp": "2026-05-23T13:15:59.7568342+01:00",
+      "video_file": "Ses01F_impro01.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.480573,
+        "position_y": 2.5111554,
+        "is_moving": true,
+        "speed": 0.5
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19527641,
+        "audio_vote": "anger",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 28,
+      "timestamp": "2026-05-23T13:16:02.2771146+01:00",
+      "video_file": "Ses01F_impro01.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.4803476,
+        "position_y": 2.4741805,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19814575,
+        "audio_vote": "anger",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 29,
+      "timestamp": "2026-05-23T13:16:05.9975732+01:00",
+      "video_file": "Ses01F_impro01.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.4537702,
+        "position_y": 2.4897513,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19185176,
+        "audio_vote": "anger",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 30,
+      "timestamp": "2026-05-23T13:16:08.3877906+01:00",
+      "video_file": "Ses01F_impro01.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.4139228,
+        "position_y": 2.4589977,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19575393,
+        "audio_vote": "happiness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 31,
+      "timestamp": "2026-05-23T13:16:12.0155232+01:00",
+      "video_file": "Ses01F_impro01.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.5457606,
+        "position_y": 2.4118938,
+        "is_moving": true,
+        "speed": 0.7
+      },
+      "emotion_detection": {
+        "detected_emotion": "excited",
+        "confidence": 0.19149739,
+        "audio_vote": "sadness",
+        "face_vote": "excited",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 32,
+      "timestamp": "2026-05-23T13:16:14.5898896+01:00",
+      "video_file": "Ses01F_impro01.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.5847814,
+        "position_y": 2.3816032,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.1956794,
+        "audio_vote": "happiness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 33,
+      "timestamp": "2026-05-23T13:16:18.1522499+01:00",
+      "video_file": "Ses01F_impro01.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.4927874,
+        "position_y": 2.3423975,
+        "is_moving": true,
+        "speed": 0.5
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19437613,
+        "audio_vote": "anger",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 34,
+      "timestamp": "2026-05-23T13:16:20.5894823+01:00",
+      "video_file": "Ses01F_impro01.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.5916154,
+        "position_y": 2.3576617,
+        "is_moving": true,
+        "speed": 0.5
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.1926521,
+        "audio_vote": "happiness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 35,
+      "timestamp": "2026-05-23T13:16:23.9185724+01:00",
+      "video_file": "Ses01F_impro01.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.4946554,
+        "position_y": 2.3821313,
+        "is_moving": true,
+        "speed": 0.5
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.1883628,
+        "audio_vote": "anger",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 36,
+      "timestamp": "2026-05-23T13:16:26.3810265+01:00",
+      "video_file": "Ses01F_impro01.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.5,
+        "position_y": 2.4015968,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.1918371,
+        "audio_vote": "anger",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 37,
+      "timestamp": "2026-05-23T13:16:29.7703628+01:00",
+      "video_file": "Ses01F_impro01.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.5,
+        "position_y": 2.3875694,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19382863,
+        "audio_vote": "sadness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 38,
+      "timestamp": "2026-05-23T13:16:32.1802394+01:00",
+      "video_file": "Ses01F_impro01.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.5961733,
+        "position_y": 2.3601706,
+        "is_moving": true,
+        "speed": 0.5
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19541866,
+        "audio_vote": "anger",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 39,
+      "timestamp": "2026-05-23T13:16:35.5544764+01:00",
+      "video_file": "Ses01F_impro01.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.5926147,
+        "position_y": 2.3333192,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.1911793,
+        "audio_vote": "anger",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 40,
+      "timestamp": "2026-05-23T13:16:37.9549058+01:00",
+      "video_file": "Ses01F_impro01.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.5623608,
+        "position_y": 2.314034,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19510439,
+        "audio_vote": "happiness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 41,
+      "timestamp": "2026-05-23T13:16:41.3745219+01:00",
+      "video_file": "Ses01F_impro01.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.5485942,
+        "position_y": 2.3111377,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19096665,
+        "audio_vote": "neutral",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 42,
+      "timestamp": "2026-05-23T13:16:43.9165093+01:00",
+      "video_file": "Ses01F_impro01.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.5687935,
+        "position_y": 2.3118322,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19371814,
+        "audio_vote": "frustration",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 43,
+      "timestamp": "2026-05-23T13:16:47.2906282+01:00",
+      "video_file": "Ses01F_impro01.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.5774186,
+        "position_y": 2.275169,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.1933612,
+        "audio_vote": "happiness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 44,
+      "timestamp": "2026-05-23T13:16:49.8136862+01:00",
+      "video_file": "Ses01F_impro01.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.4787812,
+        "position_y": 2.291621,
+        "is_moving": true,
+        "speed": 0.5
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.18922967,
+        "audio_vote": "anger",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 45,
+      "timestamp": "2026-05-23T13:16:53.1623081+01:00",
+      "video_file": "Ses01F_impro01.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.5781353,
+        "position_y": 2.3029697,
+        "is_moving": true,
+        "speed": 0.5
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19366306,
+        "audio_vote": "frustration",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 46,
+      "timestamp": "2026-05-23T13:16:55.5983368+01:00",
+      "video_file": "Ses01F_impro01.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.4415846,
+        "position_y": 2.3338556,
+        "is_moving": true,
+        "speed": 0.7
+      },
+      "emotion_detection": {
+        "detected_emotion": "excited",
+        "confidence": 0.18603763,
+        "audio_vote": "anger",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 47,
+      "timestamp": "2026-05-23T13:16:59.0589547+01:00",
+      "video_file": "Ses01F_impro01.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.4045238,
+        "position_y": 2.379495,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19954586,
+        "audio_vote": "happiness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 48,
+      "timestamp": "2026-05-23T13:17:00.8052681+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.5620182,
+        "position_y": 2.4077,
+        "is_moving": true,
+        "speed": 0.8
+      },
+      "emotion_detection": {
+        "detected_emotion": "anger",
+        "confidence": 0.19410716,
+        "audio_vote": "anger",
+        "face_vote": "excited",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 49,
+      "timestamp": "2026-05-23T13:17:03.2909665+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.5761518,
+        "position_y": 2.3890674,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "excited",
+        "confidence": 0.19898558,
+        "audio_vote": "neutral",
+        "face_vote": "excited",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 50,
+      "timestamp": "2026-05-23T13:17:06.9447352+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.5987628,
+        "position_y": 2.3936315,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.1965721,
+        "audio_vote": "happiness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 51,
+      "timestamp": "2026-05-23T13:17:09.4887847+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.5601869,
+        "position_y": 2.377616,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19678122,
+        "audio_vote": "happiness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 52,
+      "timestamp": "2026-05-23T13:17:13.1724085+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.5335922,
+        "position_y": 2.3602233,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.1983071,
+        "audio_vote": "sadness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 53,
+      "timestamp": "2026-05-23T13:17:15.7332525+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.5143237,
+        "position_y": 2.2620971,
+        "is_moving": true,
+        "speed": 0.5
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19841993,
+        "audio_vote": "anger",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 54,
+      "timestamp": "2026-05-23T13:17:19.1430681+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.5,
+        "position_y": 2.244539,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19690171,
+        "audio_vote": "sadness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 55,
+      "timestamp": "2026-05-23T13:17:21.6960586+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.5,
+        "position_y": 2.2494571,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19800985,
+        "audio_vote": "happiness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 56,
+      "timestamp": "2026-05-23T13:17:25.189461+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.5,
+        "position_y": 2.2416008,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19322455,
+        "audio_vote": "sadness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 57,
+      "timestamp": "2026-05-23T13:17:27.7351302+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.4946997,
+        "position_y": 2.2237244,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19216216,
+        "audio_vote": "neutral",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 58,
+      "timestamp": "2026-05-23T13:17:31.2565158+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.5,
+        "position_y": 2.2334366,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19414607,
+        "audio_vote": "neutral",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 59,
+      "timestamp": "2026-05-23T13:17:33.7390312+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.5,
+        "position_y": 2.2024648,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19769418,
+        "audio_vote": "anger",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 60,
+      "timestamp": "2026-05-23T13:17:37.1079276+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.5,
+        "position_y": 2.2421677,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19993961,
+        "audio_vote": "happiness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 61,
+      "timestamp": "2026-05-23T13:17:39.6344026+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.5,
+        "position_y": 2.1986535,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19939592,
+        "audio_vote": "neutral",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 62,
+      "timestamp": "2026-05-23T13:17:43.0414031+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.5,
+        "position_y": 2.1744916,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.20123059,
+        "audio_vote": "sadness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 63,
+      "timestamp": "2026-05-23T13:17:45.4454773+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.5,
+        "position_y": 2.1303265,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19983213,
+        "audio_vote": "excited",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 64,
+      "timestamp": "2026-05-23T13:17:48.9695233+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.5,
+        "position_y": 2.169966,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19510551,
+        "audio_vote": "anger",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 65,
+      "timestamp": "2026-05-23T13:17:51.3417229+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.4684658,
+        "position_y": 2.1891017,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19622996,
+        "audio_vote": "happiness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 66,
+      "timestamp": "2026-05-23T13:17:54.6964497+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.49028,
+        "position_y": 2.2866933,
+        "is_moving": true,
+        "speed": 0.5
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.1911397,
+        "audio_vote": "excited",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 67,
+      "timestamp": "2026-05-23T13:17:57.174693+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.5533252,
+        "position_y": 2.2090704,
+        "is_moving": true,
+        "speed": 0.5
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19206351,
+        "audio_vote": "anger",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 68,
+      "timestamp": "2026-05-23T13:18:00.6327719+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.5524068,
+        "position_y": 2.1690702,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19453248,
+        "audio_vote": "excited",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 69,
+      "timestamp": "2026-05-23T13:18:03.0355036+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.5184038,
+        "position_y": 2.1568542,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19734985,
+        "audio_vote": "sadness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 70,
+      "timestamp": "2026-05-23T13:18:06.4232455+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.5,
+        "position_y": 2.1122873,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.1933634,
+        "audio_vote": "sadness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 71,
+      "timestamp": "2026-05-23T13:18:08.9030533+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.5,
+        "position_y": 2.069908,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19382147,
+        "audio_vote": "frustration",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 72,
+      "timestamp": "2026-05-23T13:18:12.1830701+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.5509531,
+        "position_y": 2.1559532,
+        "is_moving": true,
+        "speed": 0.5
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19773,
+        "audio_vote": "excited",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 73,
+      "timestamp": "2026-05-23T13:18:14.6419863+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.4535742,
+        "position_y": 2.1786978,
+        "is_moving": true,
+        "speed": 0.5
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.1907841,
+        "audio_vote": "sadness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 74,
+      "timestamp": "2026-05-23T13:18:17.9835109+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.4979775,
+        "position_y": 2.2106624,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19874361,
+        "audio_vote": "happiness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 75,
+      "timestamp": "2026-05-23T13:18:20.4242181+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.5,
+        "position_y": 2.1770198,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19101834,
+        "audio_vote": "neutral",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 76,
+      "timestamp": "2026-05-23T13:18:23.747776+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.5667322,
+        "position_y": 2.1025429,
+        "is_moving": true,
+        "speed": 0.5
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.1943919,
+        "audio_vote": "excited",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 77,
+      "timestamp": "2026-05-23T13:18:26.1471761+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.5424578,
+        "position_y": 2.1103587,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.2015742,
+        "audio_vote": "happiness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 78,
+      "timestamp": "2026-05-23T13:18:29.6389142+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.4681218,
+        "position_y": 2.0434694,
+        "is_moving": true,
+        "speed": 0.5
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19901109,
+        "audio_vote": "anger",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 79,
+      "timestamp": "2026-05-23T13:18:31.89511+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.5,
+        "position_y": 2.0534275,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19118664,
+        "audio_vote": "happiness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 80,
+      "timestamp": "2026-05-23T13:18:35.0893085+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.5270247,
+        "position_y": 1.9571483,
+        "is_moving": true,
+        "speed": 0.5
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19477256,
+        "audio_vote": "happiness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 81,
+      "timestamp": "2026-05-23T13:18:37.3755685+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.5736847,
+        "position_y": 1.982844,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.1986839,
+        "audio_vote": "happiness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 82,
+      "timestamp": "2026-05-23T13:18:40.777019+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.604147,
+        "position_y": 2.009746,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19615197,
+        "audio_vote": "happiness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 83,
+      "timestamp": "2026-05-23T13:18:43.038931+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.631055,
+        "position_y": 1.9931288,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.18937176,
+        "audio_vote": "frustration",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 84,
+      "timestamp": "2026-05-23T13:18:46.1977434+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.6119657,
+        "position_y": 1.9885242,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19340396,
+        "audio_vote": "neutral",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 85,
+      "timestamp": "2026-05-23T13:18:48.4889049+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.5132642,
+        "position_y": 2.0045874,
+        "is_moving": true,
+        "speed": 0.5
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19383018,
+        "audio_vote": "anger",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 86,
+      "timestamp": "2026-05-23T13:18:51.7617024+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.5545352,
+        "position_y": 2.0198758,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.1947056,
+        "audio_vote": "happiness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 87,
+      "timestamp": "2026-05-23T13:18:53.9464042+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "living_area",
+        "position_x": 2.5400524,
+        "position_y": 2.0240068,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.1956279,
+        "audio_vote": "neutral",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 88,
+      "timestamp": "2026-05-23T13:18:57.2067612+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.487165,
+        "position_y": 2.108877,
+        "is_moving": true,
+        "speed": 0.5
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19200873,
+        "audio_vote": "frustration",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    },
+    {
+      "frame_index": 89,
+      "timestamp": "2026-05-23T13:18:59.539978+01:00",
+      "video_file": "Ses01F_impro02.avi",
+      "footstep": {
+        "zone": "home_office",
+        "position_x": 2.5,
+        "position_y": 2.1291144,
+        "is_moving": false,
+        "speed": 0
+      },
+      "emotion_detection": {
+        "detected_emotion": "happiness",
+        "confidence": 0.19857028,
+        "audio_vote": "sadness",
+        "face_vote": "happiness",
+        "anomaly_detected": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,5035 @@
+
+╔════════════════════════════════════════════════════════════╗
+║         MOOD STABILIZER - Emotion Recognition             ║
+╚════════════════════════════════════════════════════════════╝
+
+============================================================
+Emotion Recognition System - Initialization
+============================================================
+
+[Loading Video]
+Path: C:\Users\mohamed chaibi\Downloads\pfe\ActuallApp\MoodStabilizer\MoodStabilizer\assets\Ses01M_impro04.avi
+√ Video loaded successfully
+  Frames: 5699
+  FPS: 29.97
+  Resolution: 720x480
+  Duration: 190.16 seconds
+
+[1/2] Loading Audio Model...
+√ Audio model loaded: C:\Users\mohamed chaibi\Downloads\pfe\ActuallApp\MoodStabilizer\MoodStabilizer\models\emotion_model.onnx
+
+  Audio Model Info:
+  Inputs:
+    - input: [1, -1]
+  Outputs:
+    - output: [-1, 6]
+
+[2/2] Loading Face Model...
+√ Face model loaded: C:\Users\mohamed chaibi\Downloads\pfe\ActuallApp\MoodStabilizer\MoodStabilizer\models\model.onnx
+
+  Face Model Info:
+  Inputs:
+    - pixel_values: [-1, 16, 3, 224, 224]
+  Outputs:
+    - logits: [-1, 6]
+
+============================================================
+√ All systems ready!
+============================================================
+
+Press any key to start processing...
+l
+
+[Processing Video]
+Processing 5699 frames in 16-frame windows...
+
+[Window 1] Processing frames 0 to 15...
+
+  Extracting 16 frames starting from frame 0...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6689)
+  Scores:
+    - anger: -1.0884
+    - frustration: -0.3209
+    - excited: 0.5768
+    - neutral: 0.0416
+    - sadness: 0.0291
+    - happiness: 0.6689
+[Window 2] Processing frames 16 to 31...
+
+  Extracting 16 frames starting from frame 16...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6529)
+  Scores:
+    - anger: -1.0927
+    - frustration: -0.3127
+    - excited: 0.5619
+    - neutral: 0.0347
+    - sadness: 0.0142
+    - happiness: 0.6529
+[Window 3] Processing frames 32 to 47...
+
+  Extracting 16 frames starting from frame 32...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6393)
+  Scores:
+    - anger: -1.1026
+    - frustration: -0.3396
+    - excited: 0.5242
+    - neutral: 0.0489
+    - sadness: 0.0473
+    - happiness: 0.6393
+[Window 4] Processing frames 48 to 63...
+
+  Extracting 16 frames starting from frame 48...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5928)
+  Scores:
+    - anger: -1.1056
+    - frustration: -0.3096
+    - excited: 0.4585
+    - neutral: 0.0437
+    - sadness: 0.0773
+    - happiness: 0.5928
+[Window 5] Processing frames 64 to 79...
+
+  Extracting 16 frames starting from frame 64...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6806)
+  Scores:
+    - anger: -1.1416
+    - frustration: -0.2996
+    - excited: 0.4786
+    - neutral: 0.0277
+    - sadness: 0.0119
+    - happiness: 0.6806
+[Window 6] Processing frames 80 to 95...
+
+  Extracting 16 frames starting from frame 80...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6599)
+  Scores:
+    - anger: -1.1697
+    - frustration: -0.3010
+    - excited: 0.4994
+    - neutral: 0.0378
+    - sadness: 0.0193
+    - happiness: 0.6599
+[Window 7] Processing frames 96 to 111...
+
+  Extracting 16 frames starting from frame 96...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6435)
+  Scores:
+    - anger: -1.1670
+    - frustration: -0.2937
+    - excited: 0.4878
+    - neutral: 0.0513
+    - sadness: 0.0359
+    - happiness: 0.6435
+[Window 8] Processing frames 112 to 127...
+
+  Extracting 16 frames starting from frame 112...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6570)
+  Scores:
+    - anger: -1.1398
+    - frustration: -0.3000
+    - excited: 0.4873
+    - neutral: 0.0322
+    - sadness: 0.0122
+    - happiness: 0.6570
+[Window 9] Processing frames 128 to 143...
+
+  Extracting 16 frames starting from frame 128...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6637)
+  Scores:
+    - anger: -1.1329
+    - frustration: -0.3696
+    - excited: 0.5760
+    - neutral: 0.0647
+    - sadness: -0.0327
+    - happiness: 0.6637
+[Window 10] Processing frames 144 to 159...
+
+  Extracting 16 frames starting from frame 144...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5654)
+  Scores:
+    - anger: -1.0786
+    - frustration: -0.3834
+    - excited: 0.5167
+    - neutral: 0.0093
+    - sadness: 0.1066
+    - happiness: 0.5654
+[Window 11] Processing frames 160 to 175...
+
+  Extracting 16 frames starting from frame 160...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6285)
+  Scores:
+    - anger: -1.1122
+    - frustration: -0.3765
+    - excited: 0.5188
+    - neutral: 0.0367
+    - sadness: 0.1257
+    - happiness: 0.6285
+[Window 12] Processing frames 176 to 191...
+
+  Extracting 16 frames starting from frame 176...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5806)
+  Scores:
+    - anger: -1.0772
+    - frustration: -0.3600
+    - excited: 0.4624
+    - neutral: -0.0272
+    - sadness: 0.1736
+    - happiness: 0.5806
+[Window 13] Processing frames 192 to 207...
+
+  Extracting 16 frames starting from frame 192...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5550)
+  Scores:
+    - anger: -1.0858
+    - frustration: -0.3719
+    - excited: 0.4814
+    - neutral: -0.0129
+    - sadness: 0.0892
+    - happiness: 0.5550
+[Window 14] Processing frames 208 to 223...
+
+  Extracting 16 frames starting from frame 208...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.4840)
+  Scores:
+    - anger: -1.0443
+    - frustration: -0.3512
+    - excited: 0.3949
+    - neutral: -0.0310
+    - sadness: 0.1795
+    - happiness: 0.4840
+[Window 15] Processing frames 224 to 239...
+
+  Extracting 16 frames starting from frame 224...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5779)
+  Scores:
+    - anger: -1.0861
+    - frustration: -0.3729
+    - excited: 0.5099
+    - neutral: 0.0122
+    - sadness: 0.1331
+    - happiness: 0.5779
+[Window 16] Processing frames 240 to 255...
+
+  Extracting 16 frames starting from frame 240...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5940)
+  Scores:
+    - anger: -1.0819
+    - frustration: -0.3854
+    - excited: 0.5306
+    - neutral: 0.0191
+    - sadness: 0.1429
+    - happiness: 0.5940
+[Window 17] Processing frames 256 to 271...
+
+  Extracting 16 frames starting from frame 256...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6231)
+  Scores:
+    - anger: -1.0912
+    - frustration: -0.3810
+    - excited: 0.5564
+    - neutral: 0.0598
+    - sadness: 0.0846
+    - happiness: 0.6231
+[Window 18] Processing frames 272 to 287...
+
+  Extracting 16 frames starting from frame 272...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6158)
+  Scores:
+    - anger: -1.1053
+    - frustration: -0.3657
+    - excited: 0.5564
+    - neutral: 0.0845
+    - sadness: 0.0708
+    - happiness: 0.6158
+[Window 19] Processing frames 288 to 303...
+
+  Extracting 16 frames starting from frame 288...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6241)
+  Scores:
+    - anger: -1.1039
+    - frustration: -0.3449
+    - excited: 0.5719
+    - neutral: 0.0293
+    - sadness: 0.1147
+    - happiness: 0.6241
+[Window 20] Processing frames 304 to 319...
+
+  Extracting 16 frames starting from frame 304...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5379)
+  Scores:
+    - anger: -1.0957
+    - frustration: -0.2691
+    - excited: 0.4727
+    - neutral: 0.0506
+    - sadness: 0.1999
+    - happiness: 0.5379
+[Window 21] Processing frames 320 to 335...
+
+  Extracting 16 frames starting from frame 320...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5332)
+  Scores:
+    - anger: -1.1101
+    - frustration: -0.2796
+    - excited: 0.4830
+    - neutral: 0.0741
+    - sadness: 0.2167
+    - happiness: 0.5332
+[Window 22] Processing frames 336 to 351...
+
+  Extracting 16 frames starting from frame 336...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5433)
+  Scores:
+    - anger: -1.1117
+    - frustration: -0.3352
+    - excited: 0.5185
+    - neutral: 0.0889
+    - sadness: 0.1947
+    - happiness: 0.5433
+[Window 23] Processing frames 352 to 367...
+
+  Extracting 16 frames starting from frame 352...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6011)
+  Scores:
+    - anger: -1.1003
+    - frustration: -0.3103
+    - excited: 0.4582
+    - neutral: 0.0831
+    - sadness: 0.1575
+    - happiness: 0.6011
+[Window 24] Processing frames 368 to 383...
+
+  Extracting 16 frames starting from frame 368...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5889)
+  Scores:
+    - anger: -1.0499
+    - frustration: -0.2962
+    - excited: 0.4540
+    - neutral: 0.0773
+    - sadness: 0.1754
+    - happiness: 0.5889
+[Window 25] Processing frames 384 to 399...
+
+  Extracting 16 frames starting from frame 384...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5689)
+  Scores:
+    - anger: -1.0807
+    - frustration: -0.3152
+    - excited: 0.5056
+    - neutral: 0.0970
+    - sadness: 0.1990
+    - happiness: 0.5689
+[Window 26] Processing frames 400 to 415...
+
+  Extracting 16 frames starting from frame 400...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5994)
+  Scores:
+    - anger: -1.0352
+    - frustration: -0.2830
+    - excited: 0.4375
+    - neutral: 0.0310
+    - sadness: 0.2172
+    - happiness: 0.5994
+[Window 27] Processing frames 416 to 431...
+
+  Extracting 16 frames starting from frame 416...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5982)
+  Scores:
+    - anger: -1.0541
+    - frustration: -0.2429
+    - excited: 0.4121
+    - neutral: 0.0569
+    - sadness: 0.2393
+    - happiness: 0.5982
+[Window 28] Processing frames 432 to 447...
+
+  Extracting 16 frames starting from frame 432...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6082)
+  Scores:
+    - anger: -1.0786
+    - frustration: -0.2486
+    - excited: 0.4474
+    - neutral: 0.0597
+    - sadness: 0.1922
+    - happiness: 0.6082
+[Window 29] Processing frames 448 to 463...
+
+  Extracting 16 frames starting from frame 448...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6289)
+  Scores:
+    - anger: -1.0841
+    - frustration: -0.2652
+    - excited: 0.4705
+    - neutral: 0.0557
+    - sadness: 0.1586
+    - happiness: 0.6289
+[Window 30] Processing frames 464 to 479...
+
+  Extracting 16 frames starting from frame 464...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6190)
+  Scores:
+    - anger: -1.0845
+    - frustration: -0.2500
+    - excited: 0.4459
+    - neutral: 0.0783
+    - sadness: 0.1647
+    - happiness: 0.6190
+[Window 31] Processing frames 480 to 495...
+
+  Extracting 16 frames starting from frame 480...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6325)
+  Scores:
+    - anger: -1.0550
+    - frustration: -0.2768
+    - excited: 0.4408
+    - neutral: 0.0637
+    - sadness: 0.1611
+    - happiness: 0.6325
+[Window 32] Processing frames 496 to 511...
+
+  Extracting 16 frames starting from frame 496...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5984)
+  Scores:
+    - anger: -1.0949
+    - frustration: -0.2730
+    - excited: 0.4178
+    - neutral: 0.0938
+    - sadness: 0.1414
+    - happiness: 0.5984
+[Window 33] Processing frames 512 to 527...
+
+  Extracting 16 frames starting from frame 512...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5791)
+  Scores:
+    - anger: -1.0718
+    - frustration: -0.2980
+    - excited: 0.4078
+    - neutral: 0.0692
+    - sadness: 0.2452
+    - happiness: 0.5791
+[Window 34] Processing frames 528 to 543...
+
+  Extracting 16 frames starting from frame 528...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5850)
+  Scores:
+    - anger: -1.1183
+    - frustration: -0.3212
+    - excited: 0.4767
+    - neutral: 0.1324
+    - sadness: 0.1100
+    - happiness: 0.5850
+[Window 35] Processing frames 544 to 559...
+
+  Extracting 16 frames starting from frame 544...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6286)
+  Scores:
+    - anger: -1.1271
+    - frustration: -0.2933
+    - excited: 0.4937
+    - neutral: 0.1091
+    - sadness: 0.0997
+    - happiness: 0.6286
+[Window 36] Processing frames 560 to 575...
+
+  Extracting 16 frames starting from frame 560...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6057)
+  Scores:
+    - anger: -1.1334
+    - frustration: -0.2470
+    - excited: 0.4941
+    - neutral: 0.1362
+    - sadness: 0.1391
+    - happiness: 0.6057
+[Window 37] Processing frames 576 to 591...
+
+  Extracting 16 frames starting from frame 576...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6155)
+  Scores:
+    - anger: -1.1373
+    - frustration: -0.2425
+    - excited: 0.4875
+    - neutral: 0.1231
+    - sadness: 0.1343
+    - happiness: 0.6155
+[Window 38] Processing frames 592 to 607...
+
+  Extracting 16 frames starting from frame 592...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6200)
+  Scores:
+    - anger: -1.1588
+    - frustration: -0.2961
+    - excited: 0.5011
+    - neutral: 0.0576
+    - sadness: 0.0995
+    - happiness: 0.6200
+[Window 39] Processing frames 608 to 623...
+
+  Extracting 16 frames starting from frame 608...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6879)
+  Scores:
+    - anger: -1.2352
+    - frustration: -0.3124
+    - excited: 0.5913
+    - neutral: 0.0821
+    - sadness: 0.0299
+    - happiness: 0.6879
+[Window 40] Processing frames 624 to 639...
+
+  Extracting 16 frames starting from frame 624...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.7464)
+  Scores:
+    - anger: -1.2154
+    - frustration: -0.3281
+    - excited: 0.5850
+    - neutral: 0.1254
+    - sadness: -0.0126
+    - happiness: 0.7464
+[Window 41] Processing frames 640 to 655...
+
+  Extracting 16 frames starting from frame 640...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.8012)
+  Scores:
+    - anger: -1.2210
+    - frustration: -0.3275
+    - excited: 0.6077
+    - neutral: 0.1457
+    - sadness: -0.0368
+    - happiness: 0.8012
+[Window 42] Processing frames 656 to 671...
+
+  Extracting 16 frames starting from frame 656...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.7312)
+  Scores:
+    - anger: -1.1777
+    - frustration: -0.3192
+    - excited: 0.5701
+    - neutral: 0.1243
+    - sadness: -0.0081
+    - happiness: 0.7312
+[Window 43] Processing frames 672 to 687...
+
+  Extracting 16 frames starting from frame 672...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.8039)
+  Scores:
+    - anger: -1.1970
+    - frustration: -0.3418
+    - excited: 0.5984
+    - neutral: 0.1185
+    - sadness: -0.0218
+    - happiness: 0.8039
+[Window 44] Processing frames 688 to 703...
+
+  Extracting 16 frames starting from frame 688...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.7324)
+  Scores:
+    - anger: -1.1432
+    - frustration: -0.3178
+    - excited: 0.5649
+    - neutral: 0.0874
+    - sadness: 0.0060
+    - happiness: 0.7324
+[Window 45] Processing frames 704 to 719...
+
+  Extracting 16 frames starting from frame 704...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6389)
+  Scores:
+    - anger: -1.1629
+    - frustration: -0.3208
+    - excited: 0.5995
+    - neutral: 0.1030
+    - sadness: -0.0220
+    - happiness: 0.6389
+[Window 46] Processing frames 720 to 735...
+
+  Extracting 16 frames starting from frame 720...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6587)
+  Scores:
+    - anger: -1.2059
+    - frustration: -0.2978
+    - excited: 0.6255
+    - neutral: 0.1199
+    - sadness: -0.0776
+    - happiness: 0.6587
+[Window 47] Processing frames 736 to 751...
+
+  Extracting 16 frames starting from frame 736...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6844)
+  Scores:
+    - anger: -1.2132
+    - frustration: -0.2864
+    - excited: 0.6296
+    - neutral: 0.1356
+    - sadness: -0.0376
+    - happiness: 0.6844
+[Window 48] Processing frames 752 to 767...
+
+  Extracting 16 frames starting from frame 752...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.7694)
+  Scores:
+    - anger: -1.2285
+    - frustration: -0.3240
+    - excited: 0.6276
+    - neutral: 0.1296
+    - sadness: -0.0674
+    - happiness: 0.7694
+[Window 49] Processing frames 768 to 783...
+
+  Extracting 16 frames starting from frame 768...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.7103)
+  Scores:
+    - anger: -1.2141
+    - frustration: -0.3231
+    - excited: 0.5855
+    - neutral: 0.0980
+    - sadness: -0.0388
+    - happiness: 0.7103
+[Window 50] Processing frames 784 to 799...
+
+  Extracting 16 frames starting from frame 784...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.7020)
+  Scores:
+    - anger: -1.1986
+    - frustration: -0.3582
+    - excited: 0.5411
+    - neutral: 0.0953
+    - sadness: -0.0219
+    - happiness: 0.7020
+[Window 51] Processing frames 800 to 815...
+
+  Extracting 16 frames starting from frame 800...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6767)
+  Scores:
+    - anger: -1.1873
+    - frustration: -0.3362
+    - excited: 0.5320
+    - neutral: 0.1039
+    - sadness: -0.0091
+    - happiness: 0.6767
+[Window 52] Processing frames 816 to 831...
+
+  Extracting 16 frames starting from frame 816...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6832)
+  Scores:
+    - anger: -1.1926
+    - frustration: -0.3391
+    - excited: 0.5086
+    - neutral: 0.0810
+    - sadness: 0.0019
+    - happiness: 0.6832
+[Window 53] Processing frames 832 to 847...
+
+  Extracting 16 frames starting from frame 832...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6793)
+  Scores:
+    - anger: -1.1947
+    - frustration: -0.3170
+    - excited: 0.5588
+    - neutral: 0.1249
+    - sadness: -0.0041
+    - happiness: 0.6793
+[Window 54] Processing frames 848 to 863...
+
+  Extracting 16 frames starting from frame 848...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6712)
+  Scores:
+    - anger: -1.1328
+    - frustration: -0.3372
+    - excited: 0.5064
+    - neutral: 0.1007
+    - sadness: 0.0380
+    - happiness: 0.6712
+[Window 55] Processing frames 864 to 879...
+
+  Extracting 16 frames starting from frame 864...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6504)
+  Scores:
+    - anger: -1.1621
+    - frustration: -0.3066
+    - excited: 0.5107
+    - neutral: 0.1215
+    - sadness: 0.0248
+    - happiness: 0.6504
+[Window 56] Processing frames 880 to 895...
+
+  Extracting 16 frames starting from frame 880...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6180)
+  Scores:
+    - anger: -1.1139
+    - frustration: -0.3061
+    - excited: 0.4658
+    - neutral: 0.1125
+    - sadness: 0.1005
+    - happiness: 0.6180
+[Window 57] Processing frames 896 to 911...
+
+  Extracting 16 frames starting from frame 896...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5632)
+  Scores:
+    - anger: -1.0914
+    - frustration: -0.3354
+    - excited: 0.4321
+    - neutral: 0.0648
+    - sadness: 0.1414
+    - happiness: 0.5632
+[Window 58] Processing frames 912 to 927...
+
+  Extracting 16 frames starting from frame 912...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5811)
+  Scores:
+    - anger: -1.1361
+    - frustration: -0.3098
+    - excited: 0.4713
+    - neutral: 0.1037
+    - sadness: 0.1028
+    - happiness: 0.5811
+[Window 59] Processing frames 928 to 943...
+
+  Extracting 16 frames starting from frame 928...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6357)
+  Scores:
+    - anger: -1.1763
+    - frustration: -0.3005
+    - excited: 0.5540
+    - neutral: 0.1245
+    - sadness: 0.0069
+    - happiness: 0.6357
+[Window 60] Processing frames 944 to 959...
+
+  Extracting 16 frames starting from frame 944...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6683)
+  Scores:
+    - anger: -1.2036
+    - frustration: -0.2885
+    - excited: 0.5682
+    - neutral: 0.1062
+    - sadness: -0.0085
+    - happiness: 0.6683
+[Window 61] Processing frames 960 to 975...
+
+  Extracting 16 frames starting from frame 960...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6151)
+  Scores:
+    - anger: -1.1768
+    - frustration: -0.2740
+    - excited: 0.5090
+    - neutral: 0.0941
+    - sadness: 0.0693
+    - happiness: 0.6151
+[Window 62] Processing frames 976 to 991...
+
+  Extracting 16 frames starting from frame 976...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6165)
+  Scores:
+    - anger: -1.1702
+    - frustration: -0.2751
+    - excited: 0.5196
+    - neutral: 0.0889
+    - sadness: 0.0748
+    - happiness: 0.6165
+[Window 63] Processing frames 992 to 1007...
+
+  Extracting 16 frames starting from frame 992...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6367)
+  Scores:
+    - anger: -1.1728
+    - frustration: -0.3033
+    - excited: 0.5283
+    - neutral: 0.0896
+    - sadness: 0.0769
+    - happiness: 0.6367
+[Window 64] Processing frames 1008 to 1023...
+
+  Extracting 16 frames starting from frame 1008...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6456)
+  Scores:
+    - anger: -1.1742
+    - frustration: -0.3132
+    - excited: 0.5184
+    - neutral: 0.1036
+    - sadness: 0.0503
+    - happiness: 0.6456
+[Window 65] Processing frames 1024 to 1039...
+
+  Extracting 16 frames starting from frame 1024...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6042)
+  Scores:
+    - anger: -1.1433
+    - frustration: -0.3047
+    - excited: 0.5249
+    - neutral: 0.0984
+    - sadness: 0.0836
+    - happiness: 0.6042
+[Window 66] Processing frames 1040 to 1055...
+
+  Extracting 16 frames starting from frame 1040...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6213)
+  Scores:
+    - anger: -1.1567
+    - frustration: -0.2852
+    - excited: 0.5276
+    - neutral: 0.1002
+    - sadness: 0.0585
+    - happiness: 0.6213
+[Window 67] Processing frames 1056 to 1071...
+
+  Extracting 16 frames starting from frame 1056...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6132)
+  Scores:
+    - anger: -1.1682
+    - frustration: -0.2990
+    - excited: 0.5372
+    - neutral: 0.0830
+    - sadness: 0.0525
+    - happiness: 0.6132
+[Window 68] Processing frames 1072 to 1087...
+
+  Extracting 16 frames starting from frame 1072...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6166)
+  Scores:
+    - anger: -1.1445
+    - frustration: -0.3026
+    - excited: 0.5035
+    - neutral: 0.0516
+    - sadness: 0.0899
+    - happiness: 0.6166
+[Window 69] Processing frames 1088 to 1103...
+
+  Extracting 16 frames starting from frame 1088...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6146)
+  Scores:
+    - anger: -1.1381
+    - frustration: -0.3074
+    - excited: 0.4903
+    - neutral: 0.0681
+    - sadness: 0.0866
+    - happiness: 0.6146
+[Window 70] Processing frames 1104 to 1119...
+
+  Extracting 16 frames starting from frame 1104...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5900)
+  Scores:
+    - anger: -1.1118
+    - frustration: -0.3048
+    - excited: 0.4647
+    - neutral: 0.0681
+    - sadness: 0.0915
+    - happiness: 0.5900
+[Window 71] Processing frames 1120 to 1135...
+
+  Extracting 16 frames starting from frame 1120...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6129)
+  Scores:
+    - anger: -1.1417
+    - frustration: -0.2823
+    - excited: 0.4958
+    - neutral: 0.0705
+    - sadness: 0.0741
+    - happiness: 0.6129
+[Window 72] Processing frames 1136 to 1151...
+
+  Extracting 16 frames starting from frame 1136...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5736)
+  Scores:
+    - anger: -1.0938
+    - frustration: -0.2840
+    - excited: 0.4423
+    - neutral: 0.0653
+    - sadness: 0.1272
+    - happiness: 0.5736
+[Window 73] Processing frames 1152 to 1167...
+
+  Extracting 16 frames starting from frame 1152...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5640)
+  Scores:
+    - anger: -1.1209
+    - frustration: -0.2615
+    - excited: 0.4297
+    - neutral: 0.0438
+    - sadness: 0.1044
+    - happiness: 0.5640
+[Window 74] Processing frames 1168 to 1183...
+
+  Extracting 16 frames starting from frame 1168...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5652)
+  Scores:
+    - anger: -1.1083
+    - frustration: -0.2850
+    - excited: 0.4367
+    - neutral: 0.0412
+    - sadness: 0.1244
+    - happiness: 0.5652
+[Window 75] Processing frames 1184 to 1199...
+
+  Extracting 16 frames starting from frame 1184...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5647)
+  Scores:
+    - anger: -1.0822
+    - frustration: -0.2955
+    - excited: 0.4339
+    - neutral: 0.0215
+    - sadness: 0.1134
+    - happiness: 0.5647
+[Window 76] Processing frames 1200 to 1215...
+
+  Extracting 16 frames starting from frame 1200...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5754)
+  Scores:
+    - anger: -1.0706
+    - frustration: -0.2991
+    - excited: 0.4148
+    - neutral: -0.0024
+    - sadness: 0.1272
+    - happiness: 0.5754
+[Window 77] Processing frames 1216 to 1231...
+
+  Extracting 16 frames starting from frame 1216...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6161)
+  Scores:
+    - anger: -1.1058
+    - frustration: -0.3170
+    - excited: 0.4204
+    - neutral: 0.0276
+    - sadness: 0.1448
+    - happiness: 0.6161
+[Window 78] Processing frames 1232 to 1247...
+
+  Extracting 16 frames starting from frame 1232...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6137)
+  Scores:
+    - anger: -1.1296
+    - frustration: -0.3703
+    - excited: 0.4568
+    - neutral: 0.0458
+    - sadness: 0.0814
+    - happiness: 0.6137
+[Window 79] Processing frames 1248 to 1263...
+
+  Extracting 16 frames starting from frame 1248...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6391)
+  Scores:
+    - anger: -1.1527
+    - frustration: -0.4000
+    - excited: 0.5175
+    - neutral: 0.0436
+    - sadness: 0.0438
+    - happiness: 0.6391
+[Window 80] Processing frames 1264 to 1279...
+
+  Extracting 16 frames starting from frame 1264...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6349)
+  Scores:
+    - anger: -1.1426
+    - frustration: -0.3432
+    - excited: 0.4721
+    - neutral: 0.0138
+    - sadness: 0.0686
+    - happiness: 0.6349
+[Window 81] Processing frames 1280 to 1295...
+
+  Extracting 16 frames starting from frame 1280...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6341)
+  Scores:
+    - anger: -1.1638
+    - frustration: -0.3275
+    - excited: 0.4876
+    - neutral: 0.0255
+    - sadness: 0.0439
+    - happiness: 0.6341
+[Window 82] Processing frames 1296 to 1311...
+
+  Extracting 16 frames starting from frame 1296...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6710)
+  Scores:
+    - anger: -1.1633
+    - frustration: -0.3233
+    - excited: 0.5080
+    - neutral: 0.0286
+    - sadness: -0.0024
+    - happiness: 0.6710
+[Window 83] Processing frames 1312 to 1327...
+
+  Extracting 16 frames starting from frame 1312...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6425)
+  Scores:
+    - anger: -1.1373
+    - frustration: -0.2893
+    - excited: 0.4566
+    - neutral: 0.0282
+    - sadness: 0.0640
+    - happiness: 0.6425
+[Window 84] Processing frames 1328 to 1343...
+
+  Extracting 16 frames starting from frame 1328...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6456)
+  Scores:
+    - anger: -1.1071
+    - frustration: -0.2596
+    - excited: 0.4171
+    - neutral: 0.0196
+    - sadness: 0.1020
+    - happiness: 0.6456
+[Window 85] Processing frames 1344 to 1359...
+
+  Extracting 16 frames starting from frame 1344...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6424)
+  Scores:
+    - anger: -1.1206
+    - frustration: -0.2831
+    - excited: 0.4502
+    - neutral: 0.0348
+    - sadness: 0.0613
+    - happiness: 0.6424
+[Window 86] Processing frames 1360 to 1375...
+
+  Extracting 16 frames starting from frame 1360...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6220)
+  Scores:
+    - anger: -1.1330
+    - frustration: -0.3257
+    - excited: 0.4636
+    - neutral: 0.0178
+    - sadness: 0.0443
+    - happiness: 0.6220
+[Window 87] Processing frames 1376 to 1391...
+
+  Extracting 16 frames starting from frame 1376...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6360)
+  Scores:
+    - anger: -1.1373
+    - frustration: -0.3510
+    - excited: 0.5129
+    - neutral: 0.0186
+    - sadness: 0.0278
+    - happiness: 0.6360
+[Window 88] Processing frames 1392 to 1407...
+
+  Extracting 16 frames starting from frame 1392...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6277)
+  Scores:
+    - anger: -1.1420
+    - frustration: -0.3404
+    - excited: 0.4760
+    - neutral: -0.0016
+    - sadness: 0.0550
+    - happiness: 0.6277
+[Window 89] Processing frames 1408 to 1423...
+
+  Extracting 16 frames starting from frame 1408...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6309)
+  Scores:
+    - anger: -1.1453
+    - frustration: -0.3510
+    - excited: 0.4635
+    - neutral: 0.0088
+    - sadness: 0.0598
+    - happiness: 0.6309
+[Window 90] Processing frames 1424 to 1439...
+
+  Extracting 16 frames starting from frame 1424...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6137)
+  Scores:
+    - anger: -1.1364
+    - frustration: -0.3632
+    - excited: 0.4862
+    - neutral: 0.0129
+    - sadness: 0.0440
+    - happiness: 0.6137
+[Window 91] Processing frames 1440 to 1455...
+
+  Extracting 16 frames starting from frame 1440...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6401)
+  Scores:
+    - anger: -1.1391
+    - frustration: -0.3815
+    - excited: 0.5052
+    - neutral: 0.0293
+    - sadness: 0.0351
+    - happiness: 0.6401
+[Window 92] Processing frames 1456 to 1471...
+
+  Extracting 16 frames starting from frame 1456...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6154)
+  Scores:
+    - anger: -1.1374
+    - frustration: -0.3709
+    - excited: 0.4984
+    - neutral: 0.0264
+    - sadness: 0.0418
+    - happiness: 0.6154
+[Window 93] Processing frames 1472 to 1487...
+
+  Extracting 16 frames starting from frame 1472...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6389)
+  Scores:
+    - anger: -1.1269
+    - frustration: -0.3548
+    - excited: 0.4861
+    - neutral: 0.0453
+    - sadness: 0.0162
+    - happiness: 0.6389
+[Window 94] Processing frames 1488 to 1503...
+
+  Extracting 16 frames starting from frame 1488...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6009)
+  Scores:
+    - anger: -1.1245
+    - frustration: -0.3378
+    - excited: 0.4468
+    - neutral: 0.0201
+    - sadness: 0.0786
+    - happiness: 0.6009
+[Window 95] Processing frames 1504 to 1519...
+
+  Extracting 16 frames starting from frame 1504...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6103)
+  Scores:
+    - anger: -1.1047
+    - frustration: -0.2854
+    - excited: 0.3778
+    - neutral: 0.0209
+    - sadness: 0.1941
+    - happiness: 0.6103
+[Window 96] Processing frames 1520 to 1535...
+
+  Extracting 16 frames starting from frame 1520...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6024)
+  Scores:
+    - anger: -1.0949
+    - frustration: -0.2802
+    - excited: 0.3710
+    - neutral: 0.0201
+    - sadness: 0.1949
+    - happiness: 0.6024
+[Window 97] Processing frames 1536 to 1551...
+
+  Extracting 16 frames starting from frame 1536...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6000)
+  Scores:
+    - anger: -1.0978
+    - frustration: -0.2878
+    - excited: 0.3812
+    - neutral: 0.0198
+    - sadness: 0.1716
+    - happiness: 0.6000
+[Window 98] Processing frames 1552 to 1567...
+
+  Extracting 16 frames starting from frame 1552...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6020)
+  Scores:
+    - anger: -1.1014
+    - frustration: -0.2911
+    - excited: 0.3814
+    - neutral: 0.0132
+    - sadness: 0.1622
+    - happiness: 0.6020
+[Window 99] Processing frames 1568 to 1583...
+
+  Extracting 16 frames starting from frame 1568...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5805)
+  Scores:
+    - anger: -1.1115
+    - frustration: -0.3403
+    - excited: 0.4505
+    - neutral: 0.0474
+    - sadness: 0.1076
+    - happiness: 0.5805
+[Window 100] Processing frames 1584 to 1599...
+
+  Extracting 16 frames starting from frame 1584...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6042)
+  Scores:
+    - anger: -1.1353
+    - frustration: -0.3475
+    - excited: 0.5117
+    - neutral: 0.0767
+    - sadness: 0.0607
+    - happiness: 0.6042
+[Window 101] Processing frames 1600 to 1615...
+
+  Extracting 16 frames starting from frame 1600...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6429)
+  Scores:
+    - anger: -1.1556
+    - frustration: -0.3634
+    - excited: 0.5165
+    - neutral: 0.0942
+    - sadness: 0.0016
+    - happiness: 0.6429
+[Window 102] Processing frames 1616 to 1631...
+
+  Extracting 16 frames starting from frame 1616...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6565)
+  Scores:
+    - anger: -1.1486
+    - frustration: -0.3462
+    - excited: 0.5033
+    - neutral: 0.1008
+    - sadness: 0.0266
+    - happiness: 0.6565
+[Window 103] Processing frames 1632 to 1647...
+
+  Extracting 16 frames starting from frame 1632...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6609)
+  Scores:
+    - anger: -1.1502
+    - frustration: -0.3518
+    - excited: 0.4921
+    - neutral: 0.0845
+    - sadness: 0.0152
+    - happiness: 0.6609
+[Window 104] Processing frames 1648 to 1663...
+
+  Extracting 16 frames starting from frame 1648...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6644)
+  Scores:
+    - anger: -1.1490
+    - frustration: -0.3617
+    - excited: 0.4894
+    - neutral: 0.0738
+    - sadness: 0.0334
+    - happiness: 0.6644
+[Window 105] Processing frames 1664 to 1679...
+
+  Extracting 16 frames starting from frame 1664...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6462)
+  Scores:
+    - anger: -1.1395
+    - frustration: -0.3573
+    - excited: 0.4952
+    - neutral: 0.0624
+    - sadness: 0.0432
+    - happiness: 0.6462
+[Window 106] Processing frames 1680 to 1695...
+
+  Extracting 16 frames starting from frame 1680...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6488)
+  Scores:
+    - anger: -1.1446
+    - frustration: -0.3476
+    - excited: 0.5018
+    - neutral: 0.0540
+    - sadness: 0.0581
+    - happiness: 0.6488
+[Window 107] Processing frames 1696 to 1711...
+
+  Extracting 16 frames starting from frame 1696...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6456)
+  Scores:
+    - anger: -1.1376
+    - frustration: -0.3567
+    - excited: 0.4750
+    - neutral: 0.0376
+    - sadness: 0.0933
+    - happiness: 0.6456
+[Window 108] Processing frames 1712 to 1727...
+
+  Extracting 16 frames starting from frame 1712...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6231)
+  Scores:
+    - anger: -1.1263
+    - frustration: -0.3310
+    - excited: 0.4263
+    - neutral: 0.0209
+    - sadness: 0.1188
+    - happiness: 0.6231
+[Window 109] Processing frames 1728 to 1743...
+
+  Extracting 16 frames starting from frame 1728...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6647)
+  Scores:
+    - anger: -1.1302
+    - frustration: -0.3567
+    - excited: 0.4870
+    - neutral: 0.0296
+    - sadness: 0.1052
+    - happiness: 0.6647
+[Window 110] Processing frames 1744 to 1759...
+
+  Extracting 16 frames starting from frame 1744...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.7025)
+  Scores:
+    - anger: -1.1760
+    - frustration: -0.3830
+    - excited: 0.5303
+    - neutral: 0.0534
+    - sadness: 0.0531
+    - happiness: 0.7025
+[Window 111] Processing frames 1760 to 1775...
+
+  Extracting 16 frames starting from frame 1760...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6656)
+  Scores:
+    - anger: -1.1860
+    - frustration: -0.3893
+    - excited: 0.5166
+    - neutral: 0.0655
+    - sadness: 0.0756
+    - happiness: 0.6656
+[Window 112] Processing frames 1776 to 1791...
+
+  Extracting 16 frames starting from frame 1776...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6795)
+  Scores:
+    - anger: -1.2000
+    - frustration: -0.3902
+    - excited: 0.4955
+    - neutral: 0.0589
+    - sadness: 0.0828
+    - happiness: 0.6795
+[Window 113] Processing frames 1792 to 1807...
+
+  Extracting 16 frames starting from frame 1792...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6293)
+  Scores:
+    - anger: -1.1642
+    - frustration: -0.3661
+    - excited: 0.4602
+    - neutral: 0.0204
+    - sadness: 0.0995
+    - happiness: 0.6293
+[Window 114] Processing frames 1808 to 1823...
+
+  Extracting 16 frames starting from frame 1808...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5906)
+  Scores:
+    - anger: -1.1245
+    - frustration: -0.3111
+    - excited: 0.4433
+    - neutral: 0.0160
+    - sadness: 0.0791
+    - happiness: 0.5906
+[Window 115] Processing frames 1824 to 1839...
+
+  Extracting 16 frames starting from frame 1824...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6091)
+  Scores:
+    - anger: -1.1048
+    - frustration: -0.2919
+    - excited: 0.4346
+    - neutral: -0.0004
+    - sadness: 0.1073
+    - happiness: 0.6091
+[Window 116] Processing frames 1840 to 1855...
+
+  Extracting 16 frames starting from frame 1840...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6227)
+  Scores:
+    - anger: -1.1299
+    - frustration: -0.3015
+    - excited: 0.4791
+    - neutral: 0.0239
+    - sadness: 0.0738
+    - happiness: 0.6227
+[Window 117] Processing frames 1856 to 1871...
+
+  Extracting 16 frames starting from frame 1856...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6235)
+  Scores:
+    - anger: -1.1355
+    - frustration: -0.2938
+    - excited: 0.4661
+    - neutral: 0.0401
+    - sadness: 0.0781
+    - happiness: 0.6235
+[Window 118] Processing frames 1872 to 1887...
+
+  Extracting 16 frames starting from frame 1872...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6232)
+  Scores:
+    - anger: -1.1238
+    - frustration: -0.3422
+    - excited: 0.5072
+    - neutral: 0.0412
+    - sadness: 0.0865
+    - happiness: 0.6232
+[Window 119] Processing frames 1888 to 1903...
+
+  Extracting 16 frames starting from frame 1888...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6449)
+  Scores:
+    - anger: -1.1251
+    - frustration: -0.3576
+    - excited: 0.5472
+    - neutral: 0.0462
+    - sadness: 0.0242
+    - happiness: 0.6449
+[Window 120] Processing frames 1904 to 1919...
+
+  Extracting 16 frames starting from frame 1904...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6246)
+  Scores:
+    - anger: -1.1268
+    - frustration: -0.3503
+    - excited: 0.5323
+    - neutral: 0.0454
+    - sadness: 0.0327
+    - happiness: 0.6246
+[Window 121] Processing frames 1920 to 1935...
+
+  Extracting 16 frames starting from frame 1920...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6325)
+  Scores:
+    - anger: -1.1252
+    - frustration: -0.3485
+    - excited: 0.5462
+    - neutral: 0.0392
+    - sadness: 0.0449
+    - happiness: 0.6325
+[Window 122] Processing frames 1936 to 1951...
+
+  Extracting 16 frames starting from frame 1936...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6563)
+  Scores:
+    - anger: -1.1363
+    - frustration: -0.3552
+    - excited: 0.5734
+    - neutral: 0.0965
+    - sadness: 0.0495
+    - happiness: 0.6563
+[Window 123] Processing frames 1952 to 1967...
+
+  Extracting 16 frames starting from frame 1952...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6474)
+  Scores:
+    - anger: -1.1379
+    - frustration: -0.3388
+    - excited: 0.5447
+    - neutral: 0.1050
+    - sadness: 0.0284
+    - happiness: 0.6474
+[Window 124] Processing frames 1968 to 1983...
+
+  Extracting 16 frames starting from frame 1968...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6160)
+  Scores:
+    - anger: -1.1379
+    - frustration: -0.3305
+    - excited: 0.5502
+    - neutral: 0.0835
+    - sadness: 0.0294
+    - happiness: 0.6160
+[Window 125] Processing frames 1984 to 1999...
+
+  Extracting 16 frames starting from frame 1984...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6012)
+  Scores:
+    - anger: -1.1287
+    - frustration: -0.3251
+    - excited: 0.5400
+    - neutral: 0.0427
+    - sadness: 0.0367
+    - happiness: 0.6012
+[Window 126] Processing frames 2000 to 2015...
+
+  Extracting 16 frames starting from frame 2000...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5712)
+  Scores:
+    - anger: -1.0953
+    - frustration: -0.3272
+    - excited: 0.5130
+    - neutral: 0.0448
+    - sadness: 0.0626
+    - happiness: 0.5712
+[Window 127] Processing frames 2016 to 2031...
+
+  Extracting 16 frames starting from frame 2016...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5812)
+  Scores:
+    - anger: -1.0950
+    - frustration: -0.3024
+    - excited: 0.5031
+    - neutral: 0.0795
+    - sadness: 0.0482
+    - happiness: 0.5812
+[Window 128] Processing frames 2032 to 2047...
+
+  Extracting 16 frames starting from frame 2032...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5592)
+  Scores:
+    - anger: -1.1051
+    - frustration: -0.3002
+    - excited: 0.5148
+    - neutral: 0.0918
+    - sadness: 0.0350
+    - happiness: 0.5592
+[Window 129] Processing frames 2048 to 2063...
+
+  Extracting 16 frames starting from frame 2048...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5436)
+  Scores:
+    - anger: -1.1104
+    - frustration: -0.2838
+    - excited: 0.5115
+    - neutral: 0.0585
+    - sadness: 0.0541
+    - happiness: 0.5436
+[Window 130] Processing frames 2064 to 2079...
+
+  Extracting 16 frames starting from frame 2064...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5384)
+  Scores:
+    - anger: -1.0974
+    - frustration: -0.2936
+    - excited: 0.5057
+    - neutral: 0.0394
+    - sadness: 0.0671
+    - happiness: 0.5384
+[Window 131] Processing frames 2080 to 2095...
+
+  Extracting 16 frames starting from frame 2080...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5624)
+  Scores:
+    - anger: -1.1262
+    - frustration: -0.2901
+    - excited: 0.5187
+    - neutral: 0.0529
+    - sadness: 0.0629
+    - happiness: 0.5624
+[Window 132] Processing frames 2096 to 2111...
+
+  Extracting 16 frames starting from frame 2096...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5206)
+  Scores:
+    - anger: -1.1202
+    - frustration: -0.3035
+    - excited: 0.4884
+    - neutral: 0.0300
+    - sadness: 0.1243
+    - happiness: 0.5206
+[Window 133] Processing frames 2112 to 2127...
+
+  Extracting 16 frames starting from frame 2112...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5875)
+  Scores:
+    - anger: -1.1021
+    - frustration: -0.2901
+    - excited: 0.4542
+    - neutral: 0.0027
+    - sadness: 0.1160
+    - happiness: 0.5875
+[Window 134] Processing frames 2128 to 2143...
+
+  Extracting 16 frames starting from frame 2128...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5926)
+  Scores:
+    - anger: -1.0980
+    - frustration: -0.3218
+    - excited: 0.4241
+    - neutral: 0.0032
+    - sadness: 0.1585
+    - happiness: 0.5926
+[Window 135] Processing frames 2144 to 2159...
+
+  Extracting 16 frames starting from frame 2144...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5913)
+  Scores:
+    - anger: -1.1145
+    - frustration: -0.3464
+    - excited: 0.4676
+    - neutral: 0.0101
+    - sadness: 0.1317
+    - happiness: 0.5913
+[Window 136] Processing frames 2160 to 2175...
+
+  Extracting 16 frames starting from frame 2160...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5885)
+  Scores:
+    - anger: -1.0986
+    - frustration: -0.3144
+    - excited: 0.4041
+    - neutral: 0.0078
+    - sadness: 0.1845
+    - happiness: 0.5885
+[Window 137] Processing frames 2176 to 2191...
+
+  Extracting 16 frames starting from frame 2176...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5320)
+  Scores:
+    - anger: -1.0716
+    - frustration: -0.3068
+    - excited: 0.4057
+    - neutral: 0.0320
+    - sadness: 0.1941
+    - happiness: 0.5320
+[Window 138] Processing frames 2192 to 2207...
+
+  Extracting 16 frames starting from frame 2192...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5356)
+  Scores:
+    - anger: -1.0642
+    - frustration: -0.3183
+    - excited: 0.4358
+    - neutral: 0.0291
+    - sadness: 0.1404
+    - happiness: 0.5356
+[Window 139] Processing frames 2208 to 2223...
+
+  Extracting 16 frames starting from frame 2208...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5551)
+  Scores:
+    - anger: -1.0957
+    - frustration: -0.3092
+    - excited: 0.4317
+    - neutral: 0.0369
+    - sadness: 0.1461
+    - happiness: 0.5551
+[Window 140] Processing frames 2224 to 2239...
+
+  Extracting 16 frames starting from frame 2224...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5838)
+  Scores:
+    - anger: -1.1043
+    - frustration: -0.2880
+    - excited: 0.4316
+    - neutral: 0.0601
+    - sadness: 0.1731
+    - happiness: 0.5838
+[Window 141] Processing frames 2240 to 2255...
+
+  Extracting 16 frames starting from frame 2240...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5684)
+  Scores:
+    - anger: -1.0880
+    - frustration: -0.2650
+    - excited: 0.4252
+    - neutral: 0.0456
+    - sadness: 0.2138
+    - happiness: 0.5684
+[Window 142] Processing frames 2256 to 2271...
+
+  Extracting 16 frames starting from frame 2256...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5922)
+  Scores:
+    - anger: -1.0982
+    - frustration: -0.2688
+    - excited: 0.4235
+    - neutral: 0.0240
+    - sadness: 0.2008
+    - happiness: 0.5922
+[Window 143] Processing frames 2272 to 2287...
+
+  Extracting 16 frames starting from frame 2272...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6377)
+  Scores:
+    - anger: -1.1480
+    - frustration: -0.2739
+    - excited: 0.4801
+    - neutral: 0.0378
+    - sadness: 0.1454
+    - happiness: 0.6377
+[Window 144] Processing frames 2288 to 2303...
+
+  Extracting 16 frames starting from frame 2288...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5959)
+  Scores:
+    - anger: -1.1280
+    - frustration: -0.2498
+    - excited: 0.4191
+    - neutral: 0.0473
+    - sadness: 0.1781
+    - happiness: 0.5959
+[Window 145] Processing frames 2304 to 2319...
+
+  Extracting 16 frames starting from frame 2304...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6093)
+  Scores:
+    - anger: -1.1001
+    - frustration: -0.2510
+    - excited: 0.3866
+    - neutral: 0.0289
+    - sadness: 0.2188
+    - happiness: 0.6093
+[Window 146] Processing frames 2320 to 2335...
+
+  Extracting 16 frames starting from frame 2320...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6115)
+  Scores:
+    - anger: -1.1150
+    - frustration: -0.2663
+    - excited: 0.4158
+    - neutral: 0.0430
+    - sadness: 0.1918
+    - happiness: 0.6115
+[Window 147] Processing frames 2336 to 2351...
+
+  Extracting 16 frames starting from frame 2336...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5865)
+  Scores:
+    - anger: -1.1252
+    - frustration: -0.2629
+    - excited: 0.4432
+    - neutral: 0.0628
+    - sadness: 0.1572
+    - happiness: 0.5865
+[Window 148] Processing frames 2352 to 2367...
+
+  Extracting 16 frames starting from frame 2352...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5528)
+  Scores:
+    - anger: -1.0937
+    - frustration: -0.2612
+    - excited: 0.3993
+    - neutral: 0.0471
+    - sadness: 0.2412
+    - happiness: 0.5528
+[Window 149] Processing frames 2368 to 2383...
+
+  Extracting 16 frames starting from frame 2368...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5475)
+  Scores:
+    - anger: -1.0813
+    - frustration: -0.2782
+    - excited: 0.3880
+    - neutral: 0.0254
+    - sadness: 0.2192
+    - happiness: 0.5475
+[Window 150] Processing frames 2384 to 2399...
+
+  Extracting 16 frames starting from frame 2384...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5681)
+  Scores:
+    - anger: -1.0869
+    - frustration: -0.2380
+    - excited: 0.4098
+    - neutral: 0.0283
+    - sadness: 0.2026
+    - happiness: 0.5681
+[Window 151] Processing frames 2400 to 2415...
+
+  Extracting 16 frames starting from frame 2400...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6112)
+  Scores:
+    - anger: -1.0989
+    - frustration: -0.2867
+    - excited: 0.4403
+    - neutral: -0.0132
+    - sadness: 0.1568
+    - happiness: 0.6112
+[Window 152] Processing frames 2416 to 2431...
+
+  Extracting 16 frames starting from frame 2416...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5700)
+  Scores:
+    - anger: -1.0835
+    - frustration: -0.2684
+    - excited: 0.4301
+    - neutral: -0.0030
+    - sadness: 0.1568
+    - happiness: 0.5700
+[Window 153] Processing frames 2432 to 2447...
+
+  Extracting 16 frames starting from frame 2432...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5668)
+  Scores:
+    - anger: -1.1147
+    - frustration: -0.2704
+    - excited: 0.4537
+    - neutral: -0.0103
+    - sadness: 0.1237
+    - happiness: 0.5668
+[Window 154] Processing frames 2448 to 2463...
+
+  Extracting 16 frames starting from frame 2448...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5392)
+  Scores:
+    - anger: -1.0966
+    - frustration: -0.2683
+    - excited: 0.4522
+    - neutral: -0.0218
+    - sadness: 0.1503
+    - happiness: 0.5392
+[Window 155] Processing frames 2464 to 2479...
+
+  Extracting 16 frames starting from frame 2464...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6036)
+  Scores:
+    - anger: -1.1014
+    - frustration: -0.2604
+    - excited: 0.4734
+    - neutral: -0.0029
+    - sadness: 0.1192
+    - happiness: 0.6036
+[Window 156] Processing frames 2480 to 2495...
+
+  Extracting 16 frames starting from frame 2480...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6300)
+  Scores:
+    - anger: -1.1035
+    - frustration: -0.2822
+    - excited: 0.4744
+    - neutral: -0.0238
+    - sadness: 0.1314
+    - happiness: 0.6300
+[Window 157] Processing frames 2496 to 2511...
+
+  Extracting 16 frames starting from frame 2496...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5744)
+  Scores:
+    - anger: -1.0831
+    - frustration: -0.2855
+    - excited: 0.4632
+    - neutral: 0.0062
+    - sadness: 0.1595
+    - happiness: 0.5744
+[Window 158] Processing frames 2512 to 2527...
+
+  Extracting 16 frames starting from frame 2512...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6337)
+  Scores:
+    - anger: -1.1163
+    - frustration: -0.2914
+    - excited: 0.4646
+    - neutral: -0.0089
+    - sadness: 0.1689
+    - happiness: 0.6337
+[Window 159] Processing frames 2528 to 2543...
+
+  Extracting 16 frames starting from frame 2528...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6759)
+  Scores:
+    - anger: -1.1451
+    - frustration: -0.2928
+    - excited: 0.4991
+    - neutral: -0.0014
+    - sadness: 0.1080
+    - happiness: 0.6759
+[Window 160] Processing frames 2544 to 2559...
+
+  Extracting 16 frames starting from frame 2544...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6407)
+  Scores:
+    - anger: -1.1358
+    - frustration: -0.3173
+    - excited: 0.4866
+    - neutral: 0.0042
+    - sadness: 0.1369
+    - happiness: 0.6407
+[Window 161] Processing frames 2560 to 2575...
+
+  Extracting 16 frames starting from frame 2560...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6320)
+  Scores:
+    - anger: -1.1572
+    - frustration: -0.3574
+    - excited: 0.5524
+    - neutral: 0.0161
+    - sadness: 0.1052
+    - happiness: 0.6320
+[Window 162] Processing frames 2576 to 2591...
+
+  Extracting 16 frames starting from frame 2576...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6930)
+  Scores:
+    - anger: -1.1424
+    - frustration: -0.3209
+    - excited: 0.5336
+    - neutral: 0.0167
+    - sadness: 0.0731
+    - happiness: 0.6930
+[Window 163] Processing frames 2592 to 2607...
+
+  Extracting 16 frames starting from frame 2592...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5395)
+  Scores:
+    - anger: -1.0874
+    - frustration: -0.3037
+    - excited: 0.4476
+    - neutral: 0.0176
+    - sadness: 0.1916
+    - happiness: 0.5395
+[Window 164] Processing frames 2608 to 2623...
+
+  Extracting 16 frames starting from frame 2608...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5877)
+  Scores:
+    - anger: -1.0811
+    - frustration: -0.2999
+    - excited: 0.4376
+    - neutral: 0.0236
+    - sadness: 0.2003
+    - happiness: 0.5877
+[Window 165] Processing frames 2624 to 2639...
+
+  Extracting 16 frames starting from frame 2624...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5649)
+  Scores:
+    - anger: -1.0755
+    - frustration: -0.2593
+    - excited: 0.4130
+    - neutral: 0.0295
+    - sadness: 0.2292
+    - happiness: 0.5649
+[Window 166] Processing frames 2640 to 2655...
+
+  Extracting 16 frames starting from frame 2640...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5443)
+  Scores:
+    - anger: -1.0535
+    - frustration: -0.2746
+    - excited: 0.4053
+    - neutral: 0.0272
+    - sadness: 0.2153
+    - happiness: 0.5443
+[Window 167] Processing frames 2656 to 2671...
+
+  Extracting 16 frames starting from frame 2656...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5599)
+  Scores:
+    - anger: -1.0818
+    - frustration: -0.2978
+    - excited: 0.4378
+    - neutral: 0.0059
+    - sadness: 0.1450
+    - happiness: 0.5599
+[Window 168] Processing frames 2672 to 2687...
+
+  Extracting 16 frames starting from frame 2672...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5953)
+  Scores:
+    - anger: -1.1213
+    - frustration: -0.3354
+    - excited: 0.4907
+    - neutral: -0.0020
+    - sadness: 0.1687
+    - happiness: 0.5953
+[Window 169] Processing frames 2688 to 2703...
+
+  Extracting 16 frames starting from frame 2688...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6108)
+  Scores:
+    - anger: -1.1626
+    - frustration: -0.3170
+    - excited: 0.4852
+    - neutral: 0.0374
+    - sadness: 0.1318
+    - happiness: 0.6108
+[Window 170] Processing frames 2704 to 2719...
+
+  Extracting 16 frames starting from frame 2704...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5900)
+  Scores:
+    - anger: -1.0925
+    - frustration: -0.2863
+    - excited: 0.4235
+    - neutral: 0.0228
+    - sadness: 0.1570
+    - happiness: 0.5900
+[Window 171] Processing frames 2720 to 2735...
+
+  Extracting 16 frames starting from frame 2720...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6462)
+  Scores:
+    - anger: -1.1335
+    - frustration: -0.3006
+    - excited: 0.5169
+    - neutral: 0.0572
+    - sadness: 0.0286
+    - happiness: 0.6462
+[Window 172] Processing frames 2736 to 2751...
+
+  Extracting 16 frames starting from frame 2736...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6321)
+  Scores:
+    - anger: -1.0916
+    - frustration: -0.3012
+    - excited: 0.4770
+    - neutral: 0.0315
+    - sadness: 0.1039
+    - happiness: 0.6321
+[Window 173] Processing frames 2752 to 2767...
+
+  Extracting 16 frames starting from frame 2752...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6093)
+  Scores:
+    - anger: -1.0819
+    - frustration: -0.3249
+    - excited: 0.4514
+    - neutral: -0.0117
+    - sadness: 0.1210
+    - happiness: 0.6093
+[Window 174] Processing frames 2768 to 2783...
+
+  Extracting 16 frames starting from frame 2768...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5922)
+  Scores:
+    - anger: -1.0418
+    - frustration: -0.3195
+    - excited: 0.4534
+    - neutral: -0.0016
+    - sadness: 0.1601
+    - happiness: 0.5922
+[Window 175] Processing frames 2784 to 2799...
+
+  Extracting 16 frames starting from frame 2784...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6437)
+  Scores:
+    - anger: -1.0556
+    - frustration: -0.3132
+    - excited: 0.4890
+    - neutral: 0.0313
+    - sadness: 0.0816
+    - happiness: 0.6437
+[Window 176] Processing frames 2800 to 2815...
+
+  Extracting 16 frames starting from frame 2800...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6321)
+  Scores:
+    - anger: -1.1147
+    - frustration: -0.3249
+    - excited: 0.4885
+    - neutral: 0.0376
+    - sadness: 0.0481
+    - happiness: 0.6321
+[Window 177] Processing frames 2816 to 2831...
+
+  Extracting 16 frames starting from frame 2816...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6126)
+  Scores:
+    - anger: -1.0923
+    - frustration: -0.3514
+    - excited: 0.5117
+    - neutral: 0.0231
+    - sadness: 0.0841
+    - happiness: 0.6126
+[Window 178] Processing frames 2832 to 2847...
+
+  Extracting 16 frames starting from frame 2832...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5659)
+  Scores:
+    - anger: -1.0859
+    - frustration: -0.3672
+    - excited: 0.5219
+    - neutral: 0.0188
+    - sadness: 0.0653
+    - happiness: 0.5659
+[Window 179] Processing frames 2848 to 2863...
+
+  Extracting 16 frames starting from frame 2848...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6053)
+  Scores:
+    - anger: -1.0814
+    - frustration: -0.3642
+    - excited: 0.5289
+    - neutral: 0.0226
+    - sadness: 0.0701
+    - happiness: 0.6053
+[Window 180] Processing frames 2864 to 2879...
+
+  Extracting 16 frames starting from frame 2864...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5830)
+  Scores:
+    - anger: -1.0596
+    - frustration: -0.3861
+    - excited: 0.5074
+    - neutral: 0.0559
+    - sadness: 0.0922
+    - happiness: 0.5830
+[Window 181] Processing frames 2880 to 2895...
+
+  Extracting 16 frames starting from frame 2880...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6012)
+  Scores:
+    - anger: -1.0773
+    - frustration: -0.3748
+    - excited: 0.5039
+    - neutral: 0.0217
+    - sadness: 0.0687
+    - happiness: 0.6012
+[Window 182] Processing frames 2896 to 2911...
+
+  Extracting 16 frames starting from frame 2896...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5795)
+  Scores:
+    - anger: -1.0749
+    - frustration: -0.3683
+    - excited: 0.5065
+    - neutral: 0.0380
+    - sadness: 0.0838
+    - happiness: 0.5795
+[Window 183] Processing frames 2912 to 2927...
+
+  Extracting 16 frames starting from frame 2912...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5692)
+  Scores:
+    - anger: -1.0634
+    - frustration: -0.3675
+    - excited: 0.5235
+    - neutral: 0.0297
+    - sadness: 0.0822
+    - happiness: 0.5692
+[Window 184] Processing frames 2928 to 2943...
+
+  Extracting 16 frames starting from frame 2928...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5905)
+  Scores:
+    - anger: -1.0968
+    - frustration: -0.3488
+    - excited: 0.5572
+    - neutral: 0.0671
+    - sadness: 0.0542
+    - happiness: 0.5905
+[Window 185] Processing frames 2944 to 2959...
+
+  Extracting 16 frames starting from frame 2944...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5939)
+  Scores:
+    - anger: -1.0742
+    - frustration: -0.3364
+    - excited: 0.5404
+    - neutral: 0.0546
+    - sadness: 0.0721
+    - happiness: 0.5939
+[Window 186] Processing frames 2960 to 2975...
+
+  Extracting 16 frames starting from frame 2960...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6026)
+  Scores:
+    - anger: -1.0865
+    - frustration: -0.3264
+    - excited: 0.5183
+    - neutral: 0.0734
+    - sadness: 0.0649
+    - happiness: 0.6026
+[Window 187] Processing frames 2976 to 2991...
+
+  Extracting 16 frames starting from frame 2976...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6349)
+  Scores:
+    - anger: -1.1060
+    - frustration: -0.3257
+    - excited: 0.5299
+    - neutral: 0.0707
+    - sadness: 0.0186
+    - happiness: 0.6349
+[Window 188] Processing frames 2992 to 3007...
+
+  Extracting 16 frames starting from frame 2992...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6007)
+  Scores:
+    - anger: -1.1129
+    - frustration: -0.3097
+    - excited: 0.4767
+    - neutral: 0.0268
+    - sadness: 0.0817
+    - happiness: 0.6007
+[Window 189] Processing frames 3008 to 3023...
+
+  Extracting 16 frames starting from frame 3008...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6209)
+  Scores:
+    - anger: -1.0686
+    - frustration: -0.2559
+    - excited: 0.4120
+    - neutral: -0.0012
+    - sadness: 0.2433
+    - happiness: 0.6209
+[Window 190] Processing frames 3024 to 3039...
+
+  Extracting 16 frames starting from frame 3024...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6098)
+  Scores:
+    - anger: -1.1168
+    - frustration: -0.2501
+    - excited: 0.4042
+    - neutral: 0.0285
+    - sadness: 0.2293
+    - happiness: 0.6098
+[Window 191] Processing frames 3040 to 3055...
+
+  Extracting 16 frames starting from frame 3040...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6056)
+  Scores:
+    - anger: -1.0828
+    - frustration: -0.2655
+    - excited: 0.4408
+    - neutral: 0.0160
+    - sadness: 0.2181
+    - happiness: 0.6056
+[Window 192] Processing frames 3056 to 3071...
+
+  Extracting 16 frames starting from frame 3056...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6362)
+  Scores:
+    - anger: -1.0890
+    - frustration: -0.2662
+    - excited: 0.4514
+    - neutral: 0.0084
+    - sadness: 0.2556
+    - happiness: 0.6362
+[Window 193] Processing frames 3072 to 3087...
+
+  Extracting 16 frames starting from frame 3072...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6730)
+  Scores:
+    - anger: -1.1167
+    - frustration: -0.2653
+    - excited: 0.4930
+    - neutral: 0.0645
+    - sadness: 0.1583
+    - happiness: 0.6730
+[Window 194] Processing frames 3088 to 3103...
+
+  Extracting 16 frames starting from frame 3088...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6537)
+  Scores:
+    - anger: -1.1304
+    - frustration: -0.2515
+    - excited: 0.4796
+    - neutral: 0.0994
+    - sadness: 0.1455
+    - happiness: 0.6537
+[Window 195] Processing frames 3104 to 3119...
+
+  Extracting 16 frames starting from frame 3104...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6495)
+  Scores:
+    - anger: -1.1547
+    - frustration: -0.2748
+    - excited: 0.4790
+    - neutral: 0.0650
+    - sadness: 0.1571
+    - happiness: 0.6495
+[Window 196] Processing frames 3120 to 3135...
+
+  Extracting 16 frames starting from frame 3120...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6330)
+  Scores:
+    - anger: -1.1333
+    - frustration: -0.2903
+    - excited: 0.4720
+    - neutral: 0.0570
+    - sadness: 0.1516
+    - happiness: 0.6330
+[Window 197] Processing frames 3136 to 3151...
+
+  Extracting 16 frames starting from frame 3136...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6325)
+  Scores:
+    - anger: -1.1066
+    - frustration: -0.2788
+    - excited: 0.4693
+    - neutral: 0.0877
+    - sadness: 0.1641
+    - happiness: 0.6325
+[Window 198] Processing frames 3152 to 3167...
+
+  Extracting 16 frames starting from frame 3152...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6366)
+  Scores:
+    - anger: -1.1144
+    - frustration: -0.2798
+    - excited: 0.4559
+    - neutral: 0.0444
+    - sadness: 0.1715
+    - happiness: 0.6366
+[Window 199] Processing frames 3168 to 3183...
+
+  Extracting 16 frames starting from frame 3168...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6105)
+  Scores:
+    - anger: -1.0723
+    - frustration: -0.2179
+    - excited: 0.4043
+    - neutral: 0.0055
+    - sadness: 0.2481
+    - happiness: 0.6105
+[Window 200] Processing frames 3184 to 3199...
+
+  Extracting 16 frames starting from frame 3184...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6242)
+  Scores:
+    - anger: -1.0811
+    - frustration: -0.2581
+    - excited: 0.4490
+    - neutral: 0.0164
+    - sadness: 0.2323
+    - happiness: 0.6242
+[Window 201] Processing frames 3200 to 3215...
+
+  Extracting 16 frames starting from frame 3200...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6326)
+  Scores:
+    - anger: -1.0893
+    - frustration: -0.2843
+    - excited: 0.4308
+    - neutral: 0.0124
+    - sadness: 0.2288
+    - happiness: 0.6326
+[Window 202] Processing frames 3216 to 3231...
+
+  Extracting 16 frames starting from frame 3216...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6359)
+  Scores:
+    - anger: -1.0782
+    - frustration: -0.2622
+    - excited: 0.4310
+    - neutral: 0.0281
+    - sadness: 0.1526
+    - happiness: 0.6359
+[Window 203] Processing frames 3232 to 3247...
+
+  Extracting 16 frames starting from frame 3232...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6317)
+  Scores:
+    - anger: -1.0668
+    - frustration: -0.2566
+    - excited: 0.4150
+    - neutral: 0.0332
+    - sadness: 0.2098
+    - happiness: 0.6317
+[Window 204] Processing frames 3248 to 3263...
+
+  Extracting 16 frames starting from frame 3248...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6150)
+  Scores:
+    - anger: -1.0794
+    - frustration: -0.2696
+    - excited: 0.4409
+    - neutral: 0.0491
+    - sadness: 0.1922
+    - happiness: 0.6150
+[Window 205] Processing frames 3264 to 3279...
+
+  Extracting 16 frames starting from frame 3264...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6320)
+  Scores:
+    - anger: -1.0908
+    - frustration: -0.2609
+    - excited: 0.4649
+    - neutral: 0.0564
+    - sadness: 0.1387
+    - happiness: 0.6320
+[Window 206] Processing frames 3280 to 3295...
+
+  Extracting 16 frames starting from frame 3280...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6349)
+  Scores:
+    - anger: -1.0846
+    - frustration: -0.2639
+    - excited: 0.4766
+    - neutral: 0.0258
+    - sadness: 0.1871
+    - happiness: 0.6349
+[Window 207] Processing frames 3296 to 3311...
+
+  Extracting 16 frames starting from frame 3296...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5591)
+  Scores:
+    - anger: -1.0659
+    - frustration: -0.3031
+    - excited: 0.4230
+    - neutral: 0.0450
+    - sadness: 0.1214
+    - happiness: 0.5591
+[Window 208] Processing frames 3312 to 3327...
+
+  Extracting 16 frames starting from frame 3312...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6251)
+  Scores:
+    - anger: -1.0701
+    - frustration: -0.3091
+    - excited: 0.4014
+    - neutral: 0.0114
+    - sadness: 0.1266
+    - happiness: 0.6251
+[Window 209] Processing frames 3328 to 3343...
+
+  Extracting 16 frames starting from frame 3328...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6206)
+  Scores:
+    - anger: -1.0517
+    - frustration: -0.3311
+    - excited: 0.4304
+    - neutral: 0.0020
+    - sadness: 0.1749
+    - happiness: 0.6206
+[Window 210] Processing frames 3344 to 3359...
+
+  Extracting 16 frames starting from frame 3344...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6265)
+  Scores:
+    - anger: -1.0656
+    - frustration: -0.3321
+    - excited: 0.4489
+    - neutral: -0.0012
+    - sadness: 0.1518
+    - happiness: 0.6265
+[Window 211] Processing frames 3360 to 3375...
+
+  Extracting 16 frames starting from frame 3360...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6397)
+  Scores:
+    - anger: -1.0830
+    - frustration: -0.3078
+    - excited: 0.4289
+    - neutral: 0.0016
+    - sadness: 0.1519
+    - happiness: 0.6397
+[Window 212] Processing frames 3376 to 3391...
+
+  Extracting 16 frames starting from frame 3376...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6364)
+  Scores:
+    - anger: -1.0701
+    - frustration: -0.3067
+    - excited: 0.4265
+    - neutral: -0.0023
+    - sadness: 0.1484
+    - happiness: 0.6364
+[Window 213] Processing frames 3392 to 3407...
+
+  Extracting 16 frames starting from frame 3392...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6279)
+  Scores:
+    - anger: -1.0587
+    - frustration: -0.3139
+    - excited: 0.4537
+    - neutral: 0.0436
+    - sadness: 0.1069
+    - happiness: 0.6279
+[Window 214] Processing frames 3408 to 3423...
+
+  Extracting 16 frames starting from frame 3408...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5917)
+  Scores:
+    - anger: -1.0703
+    - frustration: -0.3199
+    - excited: 0.4457
+    - neutral: 0.0198
+    - sadness: 0.1024
+    - happiness: 0.5917
+[Window 215] Processing frames 3424 to 3439...
+
+  Extracting 16 frames starting from frame 3424...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6072)
+  Scores:
+    - anger: -1.0663
+    - frustration: -0.3369
+    - excited: 0.4535
+    - neutral: 0.0029
+    - sadness: 0.1430
+    - happiness: 0.6072
+[Window 216] Processing frames 3440 to 3455...
+
+  Extracting 16 frames starting from frame 3440...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6348)
+  Scores:
+    - anger: -1.0782
+    - frustration: -0.3277
+    - excited: 0.4849
+    - neutral: 0.0093
+    - sadness: 0.1135
+    - happiness: 0.6348
+[Window 217] Processing frames 3456 to 3471...
+
+  Extracting 16 frames starting from frame 3456...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6551)
+  Scores:
+    - anger: -1.0805
+    - frustration: -0.3428
+    - excited: 0.4818
+    - neutral: 0.0062
+    - sadness: 0.0989
+    - happiness: 0.6551
+[Window 218] Processing frames 3472 to 3487...
+
+  Extracting 16 frames starting from frame 3472...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6339)
+  Scores:
+    - anger: -1.0892
+    - frustration: -0.3112
+    - excited: 0.4619
+    - neutral: -0.0012
+    - sadness: 0.1088
+    - happiness: 0.6339
+[Window 219] Processing frames 3488 to 3503...
+
+  Extracting 16 frames starting from frame 3488...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6480)
+  Scores:
+    - anger: -1.1198
+    - frustration: -0.3412
+    - excited: 0.5028
+    - neutral: 0.0018
+    - sadness: 0.0932
+    - happiness: 0.6480
+[Window 220] Processing frames 3504 to 3519...
+
+  Extracting 16 frames starting from frame 3504...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6554)
+  Scores:
+    - anger: -1.1247
+    - frustration: -0.3507
+    - excited: 0.5037
+    - neutral: 0.0084
+    - sadness: 0.0631
+    - happiness: 0.6554
+[Window 221] Processing frames 3520 to 3535...
+
+  Extracting 16 frames starting from frame 3520...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6221)
+  Scores:
+    - anger: -1.0878
+    - frustration: -0.3499
+    - excited: 0.4568
+    - neutral: 0.0039
+    - sadness: 0.1203
+    - happiness: 0.6221
+[Window 222] Processing frames 3536 to 3551...
+
+  Extracting 16 frames starting from frame 3536...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5980)
+  Scores:
+    - anger: -1.0990
+    - frustration: -0.3510
+    - excited: 0.4527
+    - neutral: 0.0007
+    - sadness: 0.1368
+    - happiness: 0.5980
+[Window 223] Processing frames 3552 to 3567...
+
+  Extracting 16 frames starting from frame 3552...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6029)
+  Scores:
+    - anger: -1.1263
+    - frustration: -0.3507
+    - excited: 0.5056
+    - neutral: 0.0105
+    - sadness: 0.0939
+    - happiness: 0.6029
+[Window 224] Processing frames 3568 to 3583...
+
+  Extracting 16 frames starting from frame 3568...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5714)
+  Scores:
+    - anger: -1.1315
+    - frustration: -0.3645
+    - excited: 0.5429
+    - neutral: 0.0177
+    - sadness: 0.0744
+    - happiness: 0.5714
+[Window 225] Processing frames 3584 to 3599...
+
+  Extracting 16 frames starting from frame 3584...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6001)
+  Scores:
+    - anger: -1.1350
+    - frustration: -0.3226
+    - excited: 0.5280
+    - neutral: -0.0104
+    - sadness: 0.0688
+    - happiness: 0.6001
+[Window 226] Processing frames 3600 to 3615...
+
+  Extracting 16 frames starting from frame 3600...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5780)
+  Scores:
+    - anger: -1.1331
+    - frustration: -0.2816
+    - excited: 0.4354
+    - neutral: 0.0627
+    - sadness: 0.1449
+    - happiness: 0.5780
+[Window 227] Processing frames 3616 to 3631...
+
+  Extracting 16 frames starting from frame 3616...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6297)
+  Scores:
+    - anger: -1.1854
+    - frustration: -0.3147
+    - excited: 0.5166
+    - neutral: 0.0788
+    - sadness: 0.1466
+    - happiness: 0.6297
+[Window 228] Processing frames 3632 to 3647...
+
+  Extracting 16 frames starting from frame 3632...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6256)
+  Scores:
+    - anger: -1.1827
+    - frustration: -0.3013
+    - excited: 0.4957
+    - neutral: 0.0889
+    - sadness: 0.1652
+    - happiness: 0.6256
+[Window 229] Processing frames 3648 to 3663...
+
+  Extracting 16 frames starting from frame 3648...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6270)
+  Scores:
+    - anger: -1.1641
+    - frustration: -0.3020
+    - excited: 0.4870
+    - neutral: 0.0940
+    - sadness: 0.1502
+    - happiness: 0.6270
+[Window 230] Processing frames 3664 to 3679...
+
+  Extracting 16 frames starting from frame 3664...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6333)
+  Scores:
+    - anger: -1.1921
+    - frustration: -0.2938
+    - excited: 0.4640
+    - neutral: 0.0914
+    - sadness: 0.1740
+    - happiness: 0.6333
+[Window 231] Processing frames 3680 to 3695...
+
+  Extracting 16 frames starting from frame 3680...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6016)
+  Scores:
+    - anger: -1.1534
+    - frustration: -0.2818
+    - excited: 0.4179
+    - neutral: 0.0781
+    - sadness: 0.2395
+    - happiness: 0.6016
+[Window 232] Processing frames 3696 to 3711...
+
+  Extracting 16 frames starting from frame 3696...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6424)
+  Scores:
+    - anger: -1.1809
+    - frustration: -0.3006
+    - excited: 0.4814
+    - neutral: 0.1152
+    - sadness: 0.1638
+    - happiness: 0.6424
+[Window 233] Processing frames 3712 to 3727...
+
+  Extracting 16 frames starting from frame 3712...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6544)
+  Scores:
+    - anger: -1.1689
+    - frustration: -0.3059
+    - excited: 0.4440
+    - neutral: 0.1038
+    - sadness: 0.2002
+    - happiness: 0.6544
+[Window 234] Processing frames 3728 to 3743...
+
+  Extracting 16 frames starting from frame 3728...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6277)
+  Scores:
+    - anger: -1.1752
+    - frustration: -0.3003
+    - excited: 0.4546
+    - neutral: 0.0849
+    - sadness: 0.1627
+    - happiness: 0.6277
+[Window 235] Processing frames 3744 to 3759...
+
+  Extracting 16 frames starting from frame 3744...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6627)
+  Scores:
+    - anger: -1.1934
+    - frustration: -0.2973
+    - excited: 0.5271
+    - neutral: 0.1385
+    - sadness: 0.0770
+    - happiness: 0.6627
+[Window 236] Processing frames 3760 to 3775...
+
+  Extracting 16 frames starting from frame 3760...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6613)
+  Scores:
+    - anger: -1.2059
+    - frustration: -0.3168
+    - excited: 0.5584
+    - neutral: 0.1791
+    - sadness: 0.0208
+    - happiness: 0.6613
+[Window 237] Processing frames 3776 to 3791...
+
+  Extracting 16 frames starting from frame 3776...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6415)
+  Scores:
+    - anger: -1.1789
+    - frustration: -0.3073
+    - excited: 0.5313
+    - neutral: 0.1508
+    - sadness: 0.0622
+    - happiness: 0.6415
+[Window 238] Processing frames 3792 to 3807...
+
+  Extracting 16 frames starting from frame 3792...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5800)
+  Scores:
+    - anger: -1.1387
+    - frustration: -0.3145
+    - excited: 0.4865
+    - neutral: 0.1038
+    - sadness: 0.1084
+    - happiness: 0.5800
+[Window 239] Processing frames 3808 to 3823...
+
+  Extracting 16 frames starting from frame 3808...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6152)
+  Scores:
+    - anger: -1.1593
+    - frustration: -0.3121
+    - excited: 0.4876
+    - neutral: 0.1106
+    - sadness: 0.0968
+    - happiness: 0.6152
+[Window 240] Processing frames 3824 to 3839...
+
+  Extracting 16 frames starting from frame 3824...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5967)
+  Scores:
+    - anger: -1.1713
+    - frustration: -0.3071
+    - excited: 0.4984
+    - neutral: 0.1217
+    - sadness: 0.0796
+    - happiness: 0.5967
+[Window 241] Processing frames 3840 to 3855...
+
+  Extracting 16 frames starting from frame 3840...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6247)
+  Scores:
+    - anger: -1.1718
+    - frustration: -0.3011
+    - excited: 0.5154
+    - neutral: 0.1415
+    - sadness: 0.0276
+    - happiness: 0.6247
+[Window 242] Processing frames 3856 to 3871...
+
+  Extracting 16 frames starting from frame 3856...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6198)
+  Scores:
+    - anger: -1.1739
+    - frustration: -0.3053
+    - excited: 0.5646
+    - neutral: 0.1486
+    - sadness: 0.0397
+    - happiness: 0.6198
+[Window 243] Processing frames 3872 to 3887...
+
+  Extracting 16 frames starting from frame 3872...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6655)
+  Scores:
+    - anger: -1.1899
+    - frustration: -0.3313
+    - excited: 0.5472
+    - neutral: 0.1486
+    - sadness: 0.0504
+    - happiness: 0.6655
+[Window 244] Processing frames 3888 to 3903...
+
+  Extracting 16 frames starting from frame 3888...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6008)
+  Scores:
+    - anger: -1.1820
+    - frustration: -0.2831
+    - excited: 0.4824
+    - neutral: 0.0666
+    - sadness: 0.1291
+    - happiness: 0.6008
+[Window 245] Processing frames 3904 to 3919...
+
+  Extracting 16 frames starting from frame 3904...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5963)
+  Scores:
+    - anger: -1.0525
+    - frustration: -0.2529
+    - excited: 0.4535
+    - neutral: -0.0061
+    - sadness: 0.1190
+    - happiness: 0.5963
+[Window 246] Processing frames 3920 to 3935...
+
+  Extracting 16 frames starting from frame 3920...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6151)
+  Scores:
+    - anger: -1.0413
+    - frustration: -0.2675
+    - excited: 0.4273
+    - neutral: 0.0001
+    - sadness: 0.1589
+    - happiness: 0.6151
+[Window 247] Processing frames 3936 to 3951...
+
+  Extracting 16 frames starting from frame 3936...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6429)
+  Scores:
+    - anger: -1.0739
+    - frustration: -0.2788
+    - excited: 0.4276
+    - neutral: 0.0140
+    - sadness: 0.1705
+    - happiness: 0.6429
+[Window 248] Processing frames 3952 to 3967...
+
+  Extracting 16 frames starting from frame 3952...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6170)
+  Scores:
+    - anger: -1.0655
+    - frustration: -0.2879
+    - excited: 0.4495
+    - neutral: 0.0182
+    - sadness: 0.1594
+    - happiness: 0.6170
+[Window 249] Processing frames 3968 to 3983...
+
+  Extracting 16 frames starting from frame 3968...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6137)
+  Scores:
+    - anger: -1.0810
+    - frustration: -0.3125
+    - excited: 0.4656
+    - neutral: 0.0416
+    - sadness: 0.1296
+    - happiness: 0.6137
+[Window 250] Processing frames 3984 to 3999...
+
+  Extracting 16 frames starting from frame 3984...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6220)
+  Scores:
+    - anger: -1.0858
+    - frustration: -0.3048
+    - excited: 0.4775
+    - neutral: 0.0399
+    - sadness: 0.1100
+    - happiness: 0.6220
+[Window 251] Processing frames 4000 to 4015...
+
+  Extracting 16 frames starting from frame 4000...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6210)
+  Scores:
+    - anger: -1.0682
+    - frustration: -0.2851
+    - excited: 0.4428
+    - neutral: 0.0468
+    - sadness: 0.1387
+    - happiness: 0.6210
+[Window 252] Processing frames 4016 to 4031...
+
+  Extracting 16 frames starting from frame 4016...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6524)
+  Scores:
+    - anger: -1.0741
+    - frustration: -0.2978
+    - excited: 0.4437
+    - neutral: 0.0341
+    - sadness: 0.1492
+    - happiness: 0.6524
+[Window 253] Processing frames 4032 to 4047...
+
+  Extracting 16 frames starting from frame 4032...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6642)
+  Scores:
+    - anger: -1.0836
+    - frustration: -0.3158
+    - excited: 0.4738
+    - neutral: 0.0403
+    - sadness: 0.1062
+    - happiness: 0.6642
+[Window 254] Processing frames 4048 to 4063...
+
+  Extracting 16 frames starting from frame 4048...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6158)
+  Scores:
+    - anger: -1.0352
+    - frustration: -0.3094
+    - excited: 0.4635
+    - neutral: 0.0192
+    - sadness: 0.1540
+    - happiness: 0.6158
+[Window 255] Processing frames 4064 to 4079...
+
+  Extracting 16 frames starting from frame 4064...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6422)
+  Scores:
+    - anger: -1.0580
+    - frustration: -0.3078
+    - excited: 0.4774
+    - neutral: 0.0239
+    - sadness: 0.1609
+    - happiness: 0.6422
+[Window 256] Processing frames 4080 to 4095...
+
+  Extracting 16 frames starting from frame 4080...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6577)
+  Scores:
+    - anger: -1.0583
+    - frustration: -0.3011
+    - excited: 0.4644
+    - neutral: 0.0266
+    - sadness: 0.1277
+    - happiness: 0.6577
+[Window 257] Processing frames 4096 to 4111...
+
+  Extracting 16 frames starting from frame 4096...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6348)
+  Scores:
+    - anger: -1.0777
+    - frustration: -0.3328
+    - excited: 0.4764
+    - neutral: 0.0406
+    - sadness: 0.1015
+    - happiness: 0.6348
+[Window 258] Processing frames 4112 to 4127...
+
+  Extracting 16 frames starting from frame 4112...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6162)
+  Scores:
+    - anger: -1.0654
+    - frustration: -0.2957
+    - excited: 0.4726
+    - neutral: 0.0364
+    - sadness: 0.0954
+    - happiness: 0.6162
+[Window 259] Processing frames 4128 to 4143...
+
+  Extracting 16 frames starting from frame 4128...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5984)
+  Scores:
+    - anger: -1.0565
+    - frustration: -0.2887
+    - excited: 0.4321
+    - neutral: 0.0416
+    - sadness: 0.1380
+    - happiness: 0.5984
+[Window 260] Processing frames 4144 to 4159...
+
+  Extracting 16 frames starting from frame 4144...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6433)
+  Scores:
+    - anger: -1.0824
+    - frustration: -0.2730
+    - excited: 0.4073
+    - neutral: 0.0412
+    - sadness: 0.1675
+    - happiness: 0.6433
+[Window 261] Processing frames 4160 to 4175...
+
+  Extracting 16 frames starting from frame 4160...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6513)
+  Scores:
+    - anger: -1.0788
+    - frustration: -0.2906
+    - excited: 0.4129
+    - neutral: 0.0308
+    - sadness: 0.1500
+    - happiness: 0.6513
+[Window 262] Processing frames 4176 to 4191...
+
+  Extracting 16 frames starting from frame 4176...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6965)
+  Scores:
+    - anger: -1.0954
+    - frustration: -0.2936
+    - excited: 0.4125
+    - neutral: 0.0496
+    - sadness: 0.1054
+    - happiness: 0.6965
+[Window 263] Processing frames 4192 to 4207...
+
+  Extracting 16 frames starting from frame 4192...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5916)
+  Scores:
+    - anger: -1.0975
+    - frustration: -0.2885
+    - excited: 0.3962
+    - neutral: 0.0383
+    - sadness: 0.1969
+    - happiness: 0.5916
+[Window 264] Processing frames 4208 to 4223...
+
+  Extracting 16 frames starting from frame 4208...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5652)
+  Scores:
+    - anger: -1.1179
+    - frustration: -0.1967
+    - excited: 0.4135
+    - neutral: 0.0255
+    - sadness: 0.2790
+    - happiness: 0.5652
+[Window 265] Processing frames 4224 to 4239...
+
+  Extracting 16 frames starting from frame 4224...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5897)
+  Scores:
+    - anger: -1.1248
+    - frustration: -0.2036
+    - excited: 0.4345
+    - neutral: 0.0511
+    - sadness: 0.2364
+    - happiness: 0.5897
+[Window 266] Processing frames 4240 to 4255...
+
+  Extracting 16 frames starting from frame 4240...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6165)
+  Scores:
+    - anger: -1.1340
+    - frustration: -0.2345
+    - excited: 0.4532
+    - neutral: 0.0607
+    - sadness: 0.1844
+    - happiness: 0.6165
+[Window 267] Processing frames 4256 to 4271...
+
+  Extracting 16 frames starting from frame 4256...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5764)
+  Scores:
+    - anger: -1.0954
+    - frustration: -0.2454
+    - excited: 0.4155
+    - neutral: 0.0372
+    - sadness: 0.2257
+    - happiness: 0.5764
+[Window 268] Processing frames 4272 to 4287...
+
+  Extracting 16 frames starting from frame 4272...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5781)
+  Scores:
+    - anger: -1.0570
+    - frustration: -0.2703
+    - excited: 0.4203
+    - neutral: 0.0089
+    - sadness: 0.2861
+    - happiness: 0.5781
+[Window 269] Processing frames 4288 to 4303...
+
+  Extracting 16 frames starting from frame 4288...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6099)
+  Scores:
+    - anger: -1.0489
+    - frustration: -0.2620
+    - excited: 0.4292
+    - neutral: 0.0245
+    - sadness: 0.2658
+    - happiness: 0.6099
+[Window 270] Processing frames 4304 to 4319...
+
+  Extracting 16 frames starting from frame 4304...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6369)
+  Scores:
+    - anger: -1.0728
+    - frustration: -0.2592
+    - excited: 0.4322
+    - neutral: 0.0470
+    - sadness: 0.2122
+    - happiness: 0.6369
+[Window 271] Processing frames 4320 to 4335...
+
+  Extracting 16 frames starting from frame 4320...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6609)
+  Scores:
+    - anger: -1.0967
+    - frustration: -0.2997
+    - excited: 0.4654
+    - neutral: 0.0495
+    - sadness: 0.2301
+    - happiness: 0.6609
+[Window 272] Processing frames 4336 to 4351...
+
+  Extracting 16 frames starting from frame 4336...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6443)
+  Scores:
+    - anger: -1.1007
+    - frustration: -0.2716
+    - excited: 0.4504
+    - neutral: 0.0662
+    - sadness: 0.1860
+    - happiness: 0.6443
+[Window 273] Processing frames 4352 to 4367...
+
+  Extracting 16 frames starting from frame 4352...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6148)
+  Scores:
+    - anger: -1.1102
+    - frustration: -0.2818
+    - excited: 0.4488
+    - neutral: 0.0826
+    - sadness: 0.1884
+    - happiness: 0.6148
+[Window 274] Processing frames 4368 to 4383...
+
+  Extracting 16 frames starting from frame 4368...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6387)
+  Scores:
+    - anger: -1.0923
+    - frustration: -0.2833
+    - excited: 0.4504
+    - neutral: 0.0616
+    - sadness: 0.1344
+    - happiness: 0.6387
+[Window 275] Processing frames 4384 to 4399...
+
+  Extracting 16 frames starting from frame 4384...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6580)
+  Scores:
+    - anger: -1.0963
+    - frustration: -0.2739
+    - excited: 0.4329
+    - neutral: 0.0621
+    - sadness: 0.1459
+    - happiness: 0.6580
+[Window 276] Processing frames 4400 to 4415...
+
+  Extracting 16 frames starting from frame 4400...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5938)
+  Scores:
+    - anger: -1.0557
+    - frustration: -0.2531
+    - excited: 0.3860
+    - neutral: 0.0291
+    - sadness: 0.2152
+    - happiness: 0.5938
+[Window 277] Processing frames 4416 to 4431...
+
+  Extracting 16 frames starting from frame 4416...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5944)
+  Scores:
+    - anger: -1.0803
+    - frustration: -0.2302
+    - excited: 0.3684
+    - neutral: 0.0604
+    - sadness: 0.1954
+    - happiness: 0.5944
+[Window 278] Processing frames 4432 to 4447...
+
+  Extracting 16 frames starting from frame 4432...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5850)
+  Scores:
+    - anger: -1.0925
+    - frustration: -0.2949
+    - excited: 0.4151
+    - neutral: 0.0765
+    - sadness: 0.1936
+    - happiness: 0.5850
+[Window 279] Processing frames 4448 to 4463...
+
+  Extracting 16 frames starting from frame 4448...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6060)
+  Scores:
+    - anger: -1.1063
+    - frustration: -0.3077
+    - excited: 0.4647
+    - neutral: 0.0760
+    - sadness: 0.1359
+    - happiness: 0.6060
+[Window 280] Processing frames 4464 to 4479...
+
+  Extracting 16 frames starting from frame 4464...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6433)
+  Scores:
+    - anger: -1.1346
+    - frustration: -0.3119
+    - excited: 0.4926
+    - neutral: 0.0958
+    - sadness: 0.1231
+    - happiness: 0.6433
+[Window 281] Processing frames 4480 to 4495...
+
+  Extracting 16 frames starting from frame 4480...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6631)
+  Scores:
+    - anger: -1.1266
+    - frustration: -0.3250
+    - excited: 0.4983
+    - neutral: 0.0781
+    - sadness: 0.1499
+    - happiness: 0.6631
+[Window 282] Processing frames 4496 to 4511...
+
+  Extracting 16 frames starting from frame 4496...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5637)
+  Scores:
+    - anger: -1.0540
+    - frustration: -0.2801
+    - excited: 0.4039
+    - neutral: 0.0160
+    - sadness: 0.1562
+    - happiness: 0.5637
+[Window 283] Processing frames 4512 to 4527...
+
+  Extracting 16 frames starting from frame 4512...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5875)
+  Scores:
+    - anger: -1.0488
+    - frustration: -0.2684
+    - excited: 0.4234
+    - neutral: 0.0141
+    - sadness: 0.1087
+    - happiness: 0.5875
+[Window 284] Processing frames 4528 to 4543...
+
+  Extracting 16 frames starting from frame 4528...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6183)
+  Scores:
+    - anger: -1.0810
+    - frustration: -0.2678
+    - excited: 0.4281
+    - neutral: 0.0273
+    - sadness: 0.0986
+    - happiness: 0.6183
+[Window 285] Processing frames 4544 to 4559...
+
+  Extracting 16 frames starting from frame 4544...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5980)
+  Scores:
+    - anger: -1.0787
+    - frustration: -0.2858
+    - excited: 0.4602
+    - neutral: 0.0662
+    - sadness: 0.0916
+    - happiness: 0.5980
+[Window 286] Processing frames 4560 to 4575...
+
+  Extracting 16 frames starting from frame 4560...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5725)
+  Scores:
+    - anger: -1.0323
+    - frustration: -0.2780
+    - excited: 0.4014
+    - neutral: -0.0301
+    - sadness: 0.1472
+    - happiness: 0.5725
+[Window 287] Processing frames 4576 to 4591...
+
+  Extracting 16 frames starting from frame 4576...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6066)
+  Scores:
+    - anger: -1.0538
+    - frustration: -0.2727
+    - excited: 0.4003
+    - neutral: -0.0409
+    - sadness: 0.1763
+    - happiness: 0.6066
+[Window 288] Processing frames 4592 to 4607...
+
+  Extracting 16 frames starting from frame 4592...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5918)
+  Scores:
+    - anger: -1.0526
+    - frustration: -0.2983
+    - excited: 0.4325
+    - neutral: -0.0222
+    - sadness: 0.1255
+    - happiness: 0.5918
+[Window 289] Processing frames 4608 to 4623...
+
+  Extracting 16 frames starting from frame 4608...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5958)
+  Scores:
+    - anger: -1.0572
+    - frustration: -0.2894
+    - excited: 0.4372
+    - neutral: -0.0267
+    - sadness: 0.1313
+    - happiness: 0.5958
+[Window 290] Processing frames 4624 to 4639...
+
+  Extracting 16 frames starting from frame 4624...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6372)
+  Scores:
+    - anger: -1.0817
+    - frustration: -0.2839
+    - excited: 0.4740
+    - neutral: -0.0064
+    - sadness: 0.1090
+    - happiness: 0.6372
+[Window 291] Processing frames 4640 to 4655...
+
+  Extracting 16 frames starting from frame 4640...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6233)
+  Scores:
+    - anger: -1.0329
+    - frustration: -0.3006
+    - excited: 0.4260
+    - neutral: -0.0356
+    - sadness: 0.1170
+    - happiness: 0.6233
+[Window 292] Processing frames 4656 to 4671...
+
+  Extracting 16 frames starting from frame 4656...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6111)
+  Scores:
+    - anger: -1.0536
+    - frustration: -0.3232
+    - excited: 0.4814
+    - neutral: -0.0056
+    - sadness: 0.0847
+    - happiness: 0.6111
+[Window 293] Processing frames 4672 to 4687...
+
+  Extracting 16 frames starting from frame 4672...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5787)
+  Scores:
+    - anger: -1.0413
+    - frustration: -0.2970
+    - excited: 0.4636
+    - neutral: -0.0330
+    - sadness: 0.1222
+    - happiness: 0.5787
+[Window 294] Processing frames 4688 to 4703...
+
+  Extracting 16 frames starting from frame 4688...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6159)
+  Scores:
+    - anger: -1.0623
+    - frustration: -0.2807
+    - excited: 0.4498
+    - neutral: -0.0388
+    - sadness: 0.0868
+    - happiness: 0.6159
+[Window 295] Processing frames 4704 to 4719...
+
+  Extracting 16 frames starting from frame 4704...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6399)
+  Scores:
+    - anger: -1.0634
+    - frustration: -0.2817
+    - excited: 0.4343
+    - neutral: -0.0283
+    - sadness: 0.1214
+    - happiness: 0.6399
+[Window 296] Processing frames 4720 to 4735...
+
+  Extracting 16 frames starting from frame 4720...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6072)
+  Scores:
+    - anger: -1.0498
+    - frustration: -0.2122
+    - excited: 0.3576
+    - neutral: -0.0364
+    - sadness: 0.1839
+    - happiness: 0.6072
+[Window 297] Processing frames 4736 to 4751...
+
+  Extracting 16 frames starting from frame 4736...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6543)
+  Scores:
+    - anger: -1.0789
+    - frustration: -0.2420
+    - excited: 0.3796
+    - neutral: -0.0085
+    - sadness: 0.1194
+    - happiness: 0.6543
+[Window 298] Processing frames 4752 to 4767...
+
+  Extracting 16 frames starting from frame 4752...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6571)
+  Scores:
+    - anger: -1.0551
+    - frustration: -0.2928
+    - excited: 0.4288
+    - neutral: 0.0405
+    - sadness: 0.0779
+    - happiness: 0.6571
+[Window 299] Processing frames 4768 to 4783...
+
+  Extracting 16 frames starting from frame 4768...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6802)
+  Scores:
+    - anger: -1.0672
+    - frustration: -0.2690
+    - excited: 0.4097
+    - neutral: 0.0357
+    - sadness: 0.0892
+    - happiness: 0.6802
+[Window 300] Processing frames 4784 to 4799...
+
+  Extracting 16 frames starting from frame 4784...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6870)
+  Scores:
+    - anger: -1.0444
+    - frustration: -0.2720
+    - excited: 0.3782
+    - neutral: -0.0085
+    - sadness: 0.1309
+    - happiness: 0.6870
+[Window 301] Processing frames 4800 to 4815...
+
+  Extracting 16 frames starting from frame 4800...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6299)
+  Scores:
+    - anger: -1.0853
+    - frustration: -0.2759
+    - excited: 0.4476
+    - neutral: 0.0192
+    - sadness: 0.0998
+    - happiness: 0.6299
+[Window 302] Processing frames 4816 to 4831...
+
+  Extracting 16 frames starting from frame 4816...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6646)
+  Scores:
+    - anger: -1.0747
+    - frustration: -0.2705
+    - excited: 0.4478
+    - neutral: 0.0434
+    - sadness: 0.0615
+    - happiness: 0.6646
+[Window 303] Processing frames 4832 to 4847...
+
+  Extracting 16 frames starting from frame 4832...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6701)
+  Scores:
+    - anger: -1.0773
+    - frustration: -0.3174
+    - excited: 0.5050
+    - neutral: 0.0679
+    - sadness: -0.0161
+    - happiness: 0.6701
+[Window 304] Processing frames 4848 to 4863...
+
+  Extracting 16 frames starting from frame 4848...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6393)
+  Scores:
+    - anger: -1.0773
+    - frustration: -0.3175
+    - excited: 0.4710
+    - neutral: 0.0426
+    - sadness: -0.0003
+    - happiness: 0.6393
+[Window 305] Processing frames 4864 to 4879...
+
+  Extracting 16 frames starting from frame 4864...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6689)
+  Scores:
+    - anger: -1.0926
+    - frustration: -0.3186
+    - excited: 0.5056
+    - neutral: 0.0645
+    - sadness: -0.0412
+    - happiness: 0.6689
+[Window 306] Processing frames 4880 to 4895...
+
+  Extracting 16 frames starting from frame 4880...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6594)
+  Scores:
+    - anger: -1.1212
+    - frustration: -0.3269
+    - excited: 0.5487
+    - neutral: 0.0687
+    - sadness: -0.0261
+    - happiness: 0.6594
+[Window 307] Processing frames 4896 to 4911...
+
+  Extracting 16 frames starting from frame 4896...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6684)
+  Scores:
+    - anger: -1.1074
+    - frustration: -0.2873
+    - excited: 0.4891
+    - neutral: 0.0443
+    - sadness: 0.0130
+    - happiness: 0.6684
+[Window 308] Processing frames 4912 to 4927...
+
+  Extracting 16 frames starting from frame 4912...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6541)
+  Scores:
+    - anger: -1.0955
+    - frustration: -0.3100
+    - excited: 0.4619
+    - neutral: 0.0019
+    - sadness: 0.0545
+    - happiness: 0.6541
+[Window 309] Processing frames 4928 to 4943...
+
+  Extracting 16 frames starting from frame 4928...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6598)
+  Scores:
+    - anger: -1.0770
+    - frustration: -0.2830
+    - excited: 0.4607
+    - neutral: 0.0137
+    - sadness: 0.1132
+    - happiness: 0.6598
+[Window 310] Processing frames 4944 to 4959...
+
+  Extracting 16 frames starting from frame 4944...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6651)
+  Scores:
+    - anger: -1.0554
+    - frustration: -0.2524
+    - excited: 0.4380
+    - neutral: -0.0025
+    - sadness: 0.1081
+    - happiness: 0.6651
+[Window 311] Processing frames 4960 to 4975...
+
+  Extracting 16 frames starting from frame 4960...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6566)
+  Scores:
+    - anger: -1.0712
+    - frustration: -0.2587
+    - excited: 0.4563
+    - neutral: -0.0072
+    - sadness: 0.1020
+    - happiness: 0.6566
+[Window 312] Processing frames 4976 to 4991...
+
+  Extracting 16 frames starting from frame 4976...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6740)
+  Scores:
+    - anger: -1.0714
+    - frustration: -0.2620
+    - excited: 0.4914
+    - neutral: 0.0276
+    - sadness: 0.0937
+    - happiness: 0.6740
+[Window 313] Processing frames 4992 to 5007...
+
+  Extracting 16 frames starting from frame 4992...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6501)
+  Scores:
+    - anger: -1.0502
+    - frustration: -0.2656
+    - excited: 0.4602
+    - neutral: 0.0402
+    - sadness: 0.0857
+    - happiness: 0.6501
+[Window 314] Processing frames 5008 to 5023...
+
+  Extracting 16 frames starting from frame 5008...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6942)
+  Scores:
+    - anger: -1.0693
+    - frustration: -0.2982
+    - excited: 0.4690
+    - neutral: 0.0180
+    - sadness: 0.0630
+    - happiness: 0.6942
+[Window 315] Processing frames 5024 to 5039...
+
+  Extracting 16 frames starting from frame 5024...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6995)
+  Scores:
+    - anger: -1.0885
+    - frustration: -0.2985
+    - excited: 0.4777
+    - neutral: 0.0110
+    - sadness: 0.1086
+    - happiness: 0.6995
+[Window 316] Processing frames 5040 to 5055...
+
+  Extracting 16 frames starting from frame 5040...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.7130)
+  Scores:
+    - anger: -1.0829
+    - frustration: -0.3222
+    - excited: 0.4993
+    - neutral: 0.0315
+    - sadness: 0.0793
+    - happiness: 0.7130
+[Window 317] Processing frames 5056 to 5071...
+
+  Extracting 16 frames starting from frame 5056...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6959)
+  Scores:
+    - anger: -1.0877
+    - frustration: -0.3026
+    - excited: 0.4953
+    - neutral: 0.0354
+    - sadness: 0.0478
+    - happiness: 0.6959
+[Window 318] Processing frames 5072 to 5087...
+
+  Extracting 16 frames starting from frame 5072...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6953)
+  Scores:
+    - anger: -1.0750
+    - frustration: -0.2897
+    - excited: 0.4761
+    - neutral: 0.0245
+    - sadness: 0.0486
+    - happiness: 0.6953
+[Window 319] Processing frames 5088 to 5103...
+
+  Extracting 16 frames starting from frame 5088...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6246)
+  Scores:
+    - anger: -1.0955
+    - frustration: -0.3128
+    - excited: 0.4705
+    - neutral: -0.0252
+    - sadness: 0.0731
+    - happiness: 0.6246
+[Window 320] Processing frames 5104 to 5119...
+
+  Extracting 16 frames starting from frame 5104...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5671)
+  Scores:
+    - anger: -1.1141
+    - frustration: -0.2745
+    - excited: 0.4512
+    - neutral: 0.0261
+    - sadness: 0.1584
+    - happiness: 0.5671
+[Window 321] Processing frames 5120 to 5135...
+
+  Extracting 16 frames starting from frame 5120...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5399)
+  Scores:
+    - anger: -1.1129
+    - frustration: -0.2448
+    - excited: 0.4230
+    - neutral: 0.0376
+    - sadness: 0.2041
+    - happiness: 0.5399
+[Window 322] Processing frames 5136 to 5151...
+
+  Extracting 16 frames starting from frame 5136...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5575)
+  Scores:
+    - anger: -1.1300
+    - frustration: -0.2758
+    - excited: 0.4515
+    - neutral: 0.0353
+    - sadness: 0.1636
+    - happiness: 0.5575
+[Window 323] Processing frames 5152 to 5167...
+
+  Extracting 16 frames starting from frame 5152...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5884)
+  Scores:
+    - anger: -1.1461
+    - frustration: -0.2809
+    - excited: 0.4760
+    - neutral: 0.0721
+    - sadness: 0.1456
+    - happiness: 0.5884
+[Window 324] Processing frames 5168 to 5183...
+
+  Extracting 16 frames starting from frame 5168...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5817)
+  Scores:
+    - anger: -1.1414
+    - frustration: -0.2789
+    - excited: 0.4566
+    - neutral: 0.0626
+    - sadness: 0.1451
+    - happiness: 0.5817
+[Window 325] Processing frames 5184 to 5199...
+
+  Extracting 16 frames starting from frame 5184...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5710)
+  Scores:
+    - anger: -1.1150
+    - frustration: -0.2427
+    - excited: 0.4460
+    - neutral: 0.0527
+    - sadness: 0.1858
+    - happiness: 0.5710
+[Window 326] Processing frames 5200 to 5215...
+
+  Extracting 16 frames starting from frame 5200...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5127)
+  Scores:
+    - anger: -1.0873
+    - frustration: -0.2235
+    - excited: 0.3858
+    - neutral: 0.0409
+    - sadness: 0.2347
+    - happiness: 0.5127
+[Window 327] Processing frames 5216 to 5231...
+
+  Extracting 16 frames starting from frame 5216...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5482)
+  Scores:
+    - anger: -1.1292
+    - frustration: -0.2477
+    - excited: 0.4555
+    - neutral: 0.0583
+    - sadness: 0.1850
+    - happiness: 0.5482
+[Window 328] Processing frames 5232 to 5247...
+
+  Extracting 16 frames starting from frame 5232...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6019)
+  Scores:
+    - anger: -1.1271
+    - frustration: -0.2674
+    - excited: 0.4307
+    - neutral: 0.0541
+    - sadness: 0.1971
+    - happiness: 0.6019
+[Window 329] Processing frames 5248 to 5263...
+
+  Extracting 16 frames starting from frame 5248...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5857)
+  Scores:
+    - anger: -1.1415
+    - frustration: -0.3030
+    - excited: 0.4681
+    - neutral: 0.0339
+    - sadness: 0.2046
+    - happiness: 0.5857
+[Window 330] Processing frames 5264 to 5279...
+
+  Extracting 16 frames starting from frame 5264...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5784)
+  Scores:
+    - anger: -1.1306
+    - frustration: -0.2852
+    - excited: 0.4790
+    - neutral: 0.0488
+    - sadness: 0.1792
+    - happiness: 0.5784
+[Window 331] Processing frames 5280 to 5295...
+
+  Extracting 16 frames starting from frame 5280...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5775)
+  Scores:
+    - anger: -1.0979
+    - frustration: -0.3040
+    - excited: 0.4479
+    - neutral: 0.0706
+    - sadness: 0.1701
+    - happiness: 0.5775
+[Window 332] Processing frames 5296 to 5311...
+
+  Extracting 16 frames starting from frame 5296...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5764)
+  Scores:
+    - anger: -1.0937
+    - frustration: -0.3058
+    - excited: 0.4335
+    - neutral: 0.0490
+    - sadness: 0.1903
+    - happiness: 0.5764
+[Window 333] Processing frames 5312 to 5327...
+
+  Extracting 16 frames starting from frame 5312...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5743)
+  Scores:
+    - anger: -1.1264
+    - frustration: -0.2730
+    - excited: 0.4453
+    - neutral: 0.0856
+    - sadness: 0.1766
+    - happiness: 0.5743
+[Window 334] Processing frames 5328 to 5343...
+
+  Extracting 16 frames starting from frame 5328...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6063)
+  Scores:
+    - anger: -1.1416
+    - frustration: -0.2782
+    - excited: 0.4778
+    - neutral: 0.0741
+    - sadness: 0.1806
+    - happiness: 0.6063
+[Window 335] Processing frames 5344 to 5359...
+
+  Extracting 16 frames starting from frame 5344...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5822)
+  Scores:
+    - anger: -1.1203
+    - frustration: -0.3015
+    - excited: 0.4745
+    - neutral: 0.0691
+    - sadness: 0.1758
+    - happiness: 0.5822
+[Window 336] Processing frames 5360 to 5375...
+
+  Extracting 16 frames starting from frame 5360...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5293)
+  Scores:
+    - anger: -1.1434
+    - frustration: -0.2725
+    - excited: 0.4898
+    - neutral: 0.0603
+    - sadness: 0.2140
+    - happiness: 0.5293
+[Window 337] Processing frames 5376 to 5391...
+
+  Extracting 16 frames starting from frame 5376...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5460)
+  Scores:
+    - anger: -1.1357
+    - frustration: -0.2928
+    - excited: 0.4976
+    - neutral: 0.0522
+    - sadness: 0.2135
+    - happiness: 0.5460
+[Window 338] Processing frames 5392 to 5407...
+
+  Extracting 16 frames starting from frame 5392...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5459)
+  Scores:
+    - anger: -1.1156
+    - frustration: -0.2780
+    - excited: 0.4164
+    - neutral: 0.0602
+    - sadness: 0.2522
+    - happiness: 0.5459
+[Window 339] Processing frames 5408 to 5423...
+
+  Extracting 16 frames starting from frame 5408...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6062)
+  Scores:
+    - anger: -1.0610
+    - frustration: -0.3249
+    - excited: 0.4406
+    - neutral: 0.0626
+    - sadness: 0.0841
+    - happiness: 0.6062
+[Window 340] Processing frames 5424 to 5439...
+
+  Extracting 16 frames starting from frame 5424...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5910)
+  Scores:
+    - anger: -1.0456
+    - frustration: -0.3033
+    - excited: 0.4396
+    - neutral: 0.0515
+    - sadness: 0.0586
+    - happiness: 0.5910
+[Window 341] Processing frames 5440 to 5455...
+
+  Extracting 16 frames starting from frame 5440...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5799)
+  Scores:
+    - anger: -1.0321
+    - frustration: -0.2983
+    - excited: 0.4203
+    - neutral: 0.0411
+    - sadness: 0.1029
+    - happiness: 0.5799
+[Window 342] Processing frames 5456 to 5471...
+
+  Extracting 16 frames starting from frame 5456...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5382)
+  Scores:
+    - anger: -0.9963
+    - frustration: -0.2818
+    - excited: 0.3873
+    - neutral: 0.0184
+    - sadness: 0.1921
+    - happiness: 0.5382
+[Window 343] Processing frames 5472 to 5487...
+
+  Extracting 16 frames starting from frame 5472...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5252)
+  Scores:
+    - anger: -1.0153
+    - frustration: -0.2674
+    - excited: 0.4352
+    - neutral: 0.0120
+    - sadness: 0.1960
+    - happiness: 0.5252
+[Window 344] Processing frames 5488 to 5503...
+
+  Extracting 16 frames starting from frame 5488...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5369)
+  Scores:
+    - anger: -1.0126
+    - frustration: -0.2635
+    - excited: 0.4092
+    - neutral: -0.0061
+    - sadness: 0.1789
+    - happiness: 0.5369
+[Window 345] Processing frames 5504 to 5519...
+
+  Extracting 16 frames starting from frame 5504...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5418)
+  Scores:
+    - anger: -1.0326
+    - frustration: -0.2710
+    - excited: 0.4192
+    - neutral: -0.0100
+    - sadness: 0.1493
+    - happiness: 0.5418
+[Window 346] Processing frames 5520 to 5535...
+
+  Extracting 16 frames starting from frame 5520...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5857)
+  Scores:
+    - anger: -1.0611
+    - frustration: -0.2954
+    - excited: 0.4760
+    - neutral: 0.0203
+    - sadness: 0.0645
+    - happiness: 0.5857
+[Window 347] Processing frames 5536 to 5551...
+
+  Extracting 16 frames starting from frame 5536...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5511)
+  Scores:
+    - anger: -1.0212
+    - frustration: -0.2805
+    - excited: 0.3943
+    - neutral: 0.0104
+    - sadness: 0.1752
+    - happiness: 0.5511
+[Window 348] Processing frames 5552 to 5567...
+
+  Extracting 16 frames starting from frame 5552...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.5970)
+  Scores:
+    - anger: -1.0449
+    - frustration: -0.2731
+    - excited: 0.4384
+    - neutral: 0.0226
+    - sadness: 0.1500
+    - happiness: 0.5970
+[Window 349] Processing frames 5568 to 5583...
+
+  Extracting 16 frames starting from frame 5568...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6155)
+  Scores:
+    - anger: -1.0892
+    - frustration: -0.3064
+    - excited: 0.4767
+    - neutral: 0.0162
+    - sadness: 0.1143
+    - happiness: 0.6155
+[Window 350] Processing frames 5584 to 5599...
+
+  Extracting 16 frames starting from frame 5584...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6516)
+  Scores:
+    - anger: -1.1135
+    - frustration: -0.3228
+    - excited: 0.5298
+    - neutral: 0.0141
+    - sadness: 0.0743
+    - happiness: 0.6516
+[Window 351] Processing frames 5600 to 5615...
+
+  Extracting 16 frames starting from frame 5600...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6469)
+  Scores:
+    - anger: -1.0924
+    - frustration: -0.3047
+    - excited: 0.5099
+    - neutral: 0.0019
+    - sadness: 0.1047
+    - happiness: 0.6469
+[Window 352] Processing frames 5616 to 5631...
+
+  Extracting 16 frames starting from frame 5616...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6988)
+  Scores:
+    - anger: -1.1045
+    - frustration: -0.3175
+    - excited: 0.5029
+    - neutral: 0.0107
+    - sadness: 0.0624
+    - happiness: 0.6988
+[Window 353] Processing frames 5632 to 5647...
+
+  Extracting 16 frames starting from frame 5632...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6680)
+  Scores:
+    - anger: -1.1115
+    - frustration: -0.3396
+    - excited: 0.5180
+    - neutral: -0.0268
+    - sadness: 0.0976
+    - happiness: 0.6680
+[Window 354] Processing frames 5648 to 5663...
+
+  Extracting 16 frames starting from frame 5648...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6998)
+  Scores:
+    - anger: -1.1487
+    - frustration: -0.3568
+    - excited: 0.5064
+    - neutral: -0.0105
+    - sadness: 0.0681
+    - happiness: 0.6998
+[Window 355] Processing frames 5664 to 5679...
+
+  Extracting 16 frames starting from frame 5664...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6926)
+  Scores:
+    - anger: -1.1356
+    - frustration: -0.3526
+    - excited: 0.4843
+    - neutral: 0.0296
+    - sadness: 0.0538
+    - happiness: 0.6926
+[Window 356] Processing frames 5680 to 5695...
+
+  Extracting 16 frames starting from frame 5680...
+  √ Frames extracted
+  Running face model inference...
+  √ Face inference complete
+  √ Detected Emotion: happiness (confidence: 0.6576)
+  Scores:
+    - anger: -1.1138
+    - frustration: -0.3457
+    - excited: 0.4452
+    - neutral: 0.0102
+    - sadness: 0.0668
+    - happiness: 0.6576
+
+============================================================
+√ Processing complete!
+============================================================
+
+Press any key to exit...

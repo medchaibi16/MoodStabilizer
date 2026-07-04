@@ -1,0 +1,650 @@
+{
+  "metadata": {
+    "total_clips": 64,
+    "video_file": "Ses03F_impro02.avi",
+    "total_duration_seconds": 315,
+    "generated_at": "2026-05-29T15:18:12.4554536+01:00"
+  },
+  "emotional_clips": [
+    {
+      "clip_index": 0,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 0,
+      "emotion": "excited",
+      "confidence": 0.72499,
+      "audio_vote": "excited",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:14:07.5203261+01:00"
+    },
+    {
+      "clip_index": 1,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 5,
+      "emotion": "sadness",
+      "confidence": 0.7401462,
+      "audio_vote": "sadness",
+      "face_vote": "excited",
+      "timestamp": "2026-05-29T15:14:11.0316834+01:00"
+    },
+    {
+      "clip_index": 2,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 10,
+      "emotion": "neutral",
+      "confidence": 0.35742712,
+      "audio_vote": "neutral",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:14:15.5468975+01:00"
+    },
+    {
+      "clip_index": 3,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 15,
+      "emotion": "sadness",
+      "confidence": 0.73832095,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:14:19.0842152+01:00"
+    },
+    {
+      "clip_index": 4,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 20,
+      "emotion": "excited",
+      "confidence": 0.77336794,
+      "audio_vote": "excited",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:14:23.7532667+01:00"
+    },
+    {
+      "clip_index": 5,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 25,
+      "emotion": "happiness",
+      "confidence": 0.57566327,
+      "audio_vote": "happiness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:14:27.3316015+01:00"
+    },
+    {
+      "clip_index": 6,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 30,
+      "emotion": "neutral",
+      "confidence": 0.5116933,
+      "audio_vote": "neutral",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:14:32.0590708+01:00"
+    },
+    {
+      "clip_index": 7,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 35,
+      "emotion": "excited",
+      "confidence": 0.77965456,
+      "audio_vote": "excited",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:14:35.6743514+01:00"
+    },
+    {
+      "clip_index": 8,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 40,
+      "emotion": "happiness",
+      "confidence": 0.6486051,
+      "audio_vote": "happiness",
+      "face_vote": "excited",
+      "timestamp": "2026-05-29T15:14:40.2739833+01:00"
+    },
+    {
+      "clip_index": 9,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 45,
+      "emotion": "happiness",
+      "confidence": 0.7549702,
+      "audio_vote": "happiness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:14:43.8368277+01:00"
+    },
+    {
+      "clip_index": 10,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 50,
+      "emotion": "excited",
+      "confidence": 0.49741378,
+      "audio_vote": "excited",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:14:48.3909925+01:00"
+    },
+    {
+      "clip_index": 11,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 55,
+      "emotion": "neutral",
+      "confidence": 0.5790638,
+      "audio_vote": "neutral",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:14:51.9414173+01:00"
+    },
+    {
+      "clip_index": 12,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 60,
+      "emotion": "sadness",
+      "confidence": 0.7366416,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:14:56.530465+01:00"
+    },
+    {
+      "clip_index": 13,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 65,
+      "emotion": "excited",
+      "confidence": 0.7772699,
+      "audio_vote": "excited",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:15:00.1093161+01:00"
+    },
+    {
+      "clip_index": 14,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 70,
+      "emotion": "excited",
+      "confidence": 0.77516603,
+      "audio_vote": "excited",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:15:04.764294+01:00"
+    },
+    {
+      "clip_index": 15,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 75,
+      "emotion": "sadness",
+      "confidence": 0.6170729,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:15:08.1605644+01:00"
+    },
+    {
+      "clip_index": 16,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 80,
+      "emotion": "frustration",
+      "confidence": 0.65376073,
+      "audio_vote": "frustration",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:15:12.6173455+01:00"
+    },
+    {
+      "clip_index": 17,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 85,
+      "emotion": "excited",
+      "confidence": 0.5040185,
+      "audio_vote": "excited",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:15:16.0938689+01:00"
+    },
+    {
+      "clip_index": 18,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 90,
+      "emotion": "sadness",
+      "confidence": 0.7359796,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:15:20.6490431+01:00"
+    },
+    {
+      "clip_index": 19,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 95,
+      "emotion": "excited",
+      "confidence": 0.77475464,
+      "audio_vote": "excited",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:15:24.1480254+01:00"
+    },
+    {
+      "clip_index": 20,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 100,
+      "emotion": "excited",
+      "confidence": 0.73893493,
+      "audio_vote": "excited",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:15:28.7011025+01:00"
+    },
+    {
+      "clip_index": 21,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 105,
+      "emotion": "sadness",
+      "confidence": 0.7187003,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:15:32.0347897+01:00"
+    },
+    {
+      "clip_index": 22,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 110,
+      "emotion": "sadness",
+      "confidence": 0.5549832,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:15:36.5187721+01:00"
+    },
+    {
+      "clip_index": 23,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 115,
+      "emotion": "sadness",
+      "confidence": 0.6421218,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:15:39.8662411+01:00"
+    },
+    {
+      "clip_index": 24,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 120,
+      "emotion": "sadness",
+      "confidence": 0.75083053,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:15:44.2439504+01:00"
+    },
+    {
+      "clip_index": 25,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 125,
+      "emotion": "sadness",
+      "confidence": 0.7372105,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:15:47.6957202+01:00"
+    },
+    {
+      "clip_index": 26,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 130,
+      "emotion": "sadness",
+      "confidence": 0.7486548,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:15:52.101484+01:00"
+    },
+    {
+      "clip_index": 27,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 135,
+      "emotion": "sadness",
+      "confidence": 0.7423856,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:15:55.4838134+01:00"
+    },
+    {
+      "clip_index": 28,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 140,
+      "emotion": "sadness",
+      "confidence": 0.74204445,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:15:59.9921057+01:00"
+    },
+    {
+      "clip_index": 29,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 145,
+      "emotion": "sadness",
+      "confidence": 0.4893656,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:16:03.330094+01:00"
+    },
+    {
+      "clip_index": 30,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 150,
+      "emotion": "sadness",
+      "confidence": 0.43368497,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:16:07.7763736+01:00"
+    },
+    {
+      "clip_index": 31,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 155,
+      "emotion": "sadness",
+      "confidence": 0.74486303,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:16:11.112034+01:00"
+    },
+    {
+      "clip_index": 32,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 160,
+      "emotion": "happiness",
+      "confidence": 0.7455473,
+      "audio_vote": "happiness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:16:15.4635717+01:00"
+    },
+    {
+      "clip_index": 33,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 165,
+      "emotion": "happiness",
+      "confidence": 0.6949379,
+      "audio_vote": "happiness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:16:18.7989279+01:00"
+    },
+    {
+      "clip_index": 34,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 170,
+      "emotion": "sadness",
+      "confidence": 0.74454236,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:16:23.1791574+01:00"
+    },
+    {
+      "clip_index": 35,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 175,
+      "emotion": "sadness",
+      "confidence": 0.7307005,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:16:26.4884692+01:00"
+    },
+    {
+      "clip_index": 36,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 180,
+      "emotion": "sadness",
+      "confidence": 0.6946728,
+      "audio_vote": "sadness",
+      "face_vote": "excited",
+      "timestamp": "2026-05-29T15:16:30.8528554+01:00"
+    },
+    {
+      "clip_index": 37,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 185,
+      "emotion": "excited",
+      "confidence": 0.64308614,
+      "audio_vote": "excited",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:16:34.1679803+01:00"
+    },
+    {
+      "clip_index": 38,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 190,
+      "emotion": "sadness",
+      "confidence": 0.74369526,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:16:38.5919193+01:00"
+    },
+    {
+      "clip_index": 39,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 195,
+      "emotion": "sadness",
+      "confidence": 0.72762483,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:16:41.9395267+01:00"
+    },
+    {
+      "clip_index": 40,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 200,
+      "emotion": "happiness",
+      "confidence": 0.6239828,
+      "audio_vote": "happiness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:16:46.3411423+01:00"
+    },
+    {
+      "clip_index": 41,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 205,
+      "emotion": "happiness",
+      "confidence": 0.7464725,
+      "audio_vote": "happiness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:16:49.6712714+01:00"
+    },
+    {
+      "clip_index": 42,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 210,
+      "emotion": "sadness",
+      "confidence": 0.7389834,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:16:53.9833185+01:00"
+    },
+    {
+      "clip_index": 43,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 215,
+      "emotion": "sadness",
+      "confidence": 0.7436979,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:16:57.2201313+01:00"
+    },
+    {
+      "clip_index": 44,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 220,
+      "emotion": "neutral",
+      "confidence": 0.7465212,
+      "audio_vote": "neutral",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:17:01.6124482+01:00"
+    },
+    {
+      "clip_index": 45,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 225,
+      "emotion": "sadness",
+      "confidence": 0.7438336,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:17:04.7966732+01:00"
+    },
+    {
+      "clip_index": 46,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 230,
+      "emotion": "sadness",
+      "confidence": 0.74476093,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:17:09.0455533+01:00"
+    },
+    {
+      "clip_index": 47,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 235,
+      "emotion": "sadness",
+      "confidence": 0.74245775,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:17:12.2885685+01:00"
+    },
+    {
+      "clip_index": 48,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 240,
+      "emotion": "sadness",
+      "confidence": 0.72037846,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:17:16.6180379+01:00"
+    },
+    {
+      "clip_index": 49,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 245,
+      "emotion": "frustration",
+      "confidence": 0.7286364,
+      "audio_vote": "frustration",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:17:19.8830123+01:00"
+    },
+    {
+      "clip_index": 50,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 250,
+      "emotion": "sadness",
+      "confidence": 0.60257035,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:17:24.176064+01:00"
+    },
+    {
+      "clip_index": 51,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 255,
+      "emotion": "sadness",
+      "confidence": 0.7462626,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:17:27.4345316+01:00"
+    },
+    {
+      "clip_index": 52,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 260,
+      "emotion": "sadness",
+      "confidence": 0.5868626,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:17:31.7076839+01:00"
+    },
+    {
+      "clip_index": 53,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 265,
+      "emotion": "happiness",
+      "confidence": 0.7710095,
+      "audio_vote": "happiness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:17:34.965325+01:00"
+    },
+    {
+      "clip_index": 54,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 270,
+      "emotion": "sadness",
+      "confidence": 0.74558425,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:17:39.628831+01:00"
+    },
+    {
+      "clip_index": 55,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 275,
+      "emotion": "happiness",
+      "confidence": 0.76054466,
+      "audio_vote": "happiness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:17:43.1620759+01:00"
+    },
+    {
+      "clip_index": 56,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 280,
+      "emotion": "happiness",
+      "confidence": 0.45002663,
+      "audio_vote": "happiness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:17:47.750757+01:00"
+    },
+    {
+      "clip_index": 57,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 285,
+      "emotion": "sadness",
+      "confidence": 0.7460378,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:17:50.7968071+01:00"
+    },
+    {
+      "clip_index": 58,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 290,
+      "emotion": "sadness",
+      "confidence": 0.74420786,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:17:54.8914661+01:00"
+    },
+    {
+      "clip_index": 59,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 295,
+      "emotion": "sadness",
+      "confidence": 0.7411204,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:17:58.049352+01:00"
+    },
+    {
+      "clip_index": 60,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 300,
+      "emotion": "sadness",
+      "confidence": 0.7420088,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:18:02.2454031+01:00"
+    },
+    {
+      "clip_index": 61,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 305,
+      "emotion": "sadness",
+      "confidence": 0.7420919,
+      "audio_vote": "sadness",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:18:05.2371941+01:00"
+    },
+    {
+      "clip_index": 62,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 310,
+      "emotion": "sadness",
+      "confidence": 0.4673262,
+      "audio_vote": "sadness",
+      "face_vote": "excited",
+      "timestamp": "2026-05-29T15:18:09.387326+01:00"
+    },
+    {
+      "clip_index": 63,
+      "video_name": "Ses03F_impro02.avi",
+      "time_in_seconds": 315,
+      "emotion": "frustration",
+      "confidence": 0.5772865,
+      "audio_vote": "frustration",
+      "face_vote": "happiness",
+      "timestamp": "2026-05-29T15:18:12.4480034+01:00"
+    }
+  ]
+}

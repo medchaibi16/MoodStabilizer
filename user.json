@@ -1,0 +1,310 @@
+﻿{
+  "profile": {
+    "userId": "USR_001",
+    "name": "Marcus",
+    "age": 28,
+    "gender": "male",
+    "createdDate": "2026-04-26",
+    "timezone": "UTC+1",
+    "phone_number": "+49123456789"
+  },
+  "personality": {
+    "introversion_extroversion": 0.6,
+    "stress_tolerance": 0.65,
+    "emotional_sensitivity": 0.7,
+    "activity_preference": "balanced",
+    "morning_person": false,
+    "living_situation": "alone",
+    "occupation": "software_developer",
+    "work_intensity": "high"
+  },
+  "emotion_thresholds": {
+    "action_trigger_confidence": 0.72,
+    "strong_emotion_threshold": 0.85,
+    "weak_emotion_threshold": 0.55,
+    "sustained_emotion_duration_seconds": 15,
+    "consecutive_same_emotions_min": 3
+  },
+  "sensory_preferences": {
+    "light": {
+      "preferred_brightness": 0.65,
+      "brightness_range": [0.3, 0.9],
+      "color_temperature": "warm",
+      "supports_dynamic_lighting": true,
+      "light_sensitivity": "moderate"
+    },
+    "audio": {
+      "prefers_music": true,
+      "music_genres": ["electronic", "lo-fi", "ambient", "classical"],
+      "prefers_background_audio": true,
+      "sound_sensitivity": "low",
+      "volume_range": [20, 70],
+      "ideal_volume": 45
+    },
+    "environment": {
+      "prefers_activity_suggestions": true,
+      "prefer_non_intrusive_interventions": true
+    }
+  },
+  "intervention_preferences": {
+    "allow_lighting_changes": true,
+    "allow_audio_changes": true,
+    "allow_text_messages": true,
+    "allow_voice_messages": false,
+    "max_text_messages_per_day": 2,
+    "voice_message_trigger_level": "critical_only",
+    "do_not_disturb_hours": {
+      "start": "22:00",
+      "end": "07:00"
+    },
+    "intervention_aggressiveness": "minimal",
+    "prefer_gradual_transitions": true,
+    "silent_mode_preference": true,
+    "no_interruption_if_all_good_days": 3
+  },
+  "activity_patterns": {
+    "typical_wake_time": "09:00",
+    "typical_sleep_time": "01:00",
+    "peak_productivity_hours": ["14:00", "20:00"],
+    "exercise_time": "06:00",
+    "meal_times": ["13:00", "19:00"],
+    "average_workday_hours": 8,
+    "break_interval_minutes": 45,
+    "typical_work_location": "home_office"
+  },
+  "communication": {
+    "feedback_collection": {
+      "enabled": true,
+      "request_frequency": "polite_and_necessary_only",
+      "feedback_triggers": ["happiness", "excited"],
+      "feedback_question": "How are you feeling right now?",
+      "frequency_per_week": 1,
+      "require_user_confirmation": true
+    },
+    "messaging_strategy": {
+      "use_text_sms": true,
+      "use_voice_calls": false,
+      "use_speaker_only_for": ["emergency", "critical_sadness"],
+      "text_tone": "supportive_minimal",
+      "avoid_spam": true,
+      "max_messages_without_critical_need": 2
+    },
+    "silence_period": {
+      "enabled": true,
+      "min_days_without_message": 3,
+      "description": "System stays silent if baseline is stable"
+    }
+  },
+  "emotion_response_strategies": {
+    "sadness": {
+      "sensitivity_level": 0.8,
+      "intervention_type": "emotional_support",
+      "primary_actions": ["warm_lighting", "calming_music"],
+      "secondary_actions": ["send_supportive_text"],
+      "action_delay_seconds": 5,
+      "allow_when_alone": true,
+      "allow_when_with_others": false,
+      "minimum_confidence": 0.68,
+      "duration_before_escalation_seconds": 120,
+      "text_message": "I noticed you might need support. Want to talk?",
+      "escalation_actions": ["send_check_in_text"]
+    },
+    "anger": {
+      "sensitivity_level": 0.85,
+      "intervention_type": "de_escalation_then_outlet",
+      "primary_actions": ["reduce_stimuli", "dim_lighting", "silence_mode"],
+      "secondary_actions": ["suggest_physical_activity"],
+      "action_delay_seconds": 2,
+      "allow_when_alone": true,
+      "allow_when_with_others": true,
+      "minimum_confidence": 0.75,
+      "duration_before_escalation_seconds": 45,
+      "override_conditions": {
+        "detect_door_slam": true,
+        "emergency_override_confidence": 0.9
+      },
+      "escalation_actions": ["send_critical_text", "enable_speaker_voice"]
+    },
+    "frustration": {
+      "sensitivity_level": 0.72,
+      "intervention_type": "problem_solving_assistant",
+      "primary_actions": ["reduce_distractions", "suggest_break", "focus_mode_toggle"],
+      "secondary_actions": ["hydration_reminder"],
+      "action_delay_seconds": 8,
+      "allow_when_alone": true,
+      "allow_when_with_others": true,
+      "minimum_confidence": 0.7,
+      "duration_before_escalation_seconds": 60,
+      "context_awareness": {
+        "detect_pacing": true,
+        "detect_typing_intensity": true,
+        "suggest_task_switch_after_minutes": 30
+      }
+    },
+    "neutral": {
+      "sensitivity_level": 0.0,
+      "intervention_type": "baseline_tracking",
+      "primary_actions": ["no_action"],
+      "secondary_actions": ["update_baseline", "monitor_transitions"],
+      "action_delay_seconds": 0,
+      "allow_when_alone": true,
+      "allow_when_with_others": true,
+      "minimum_confidence": 0.5,
+      "duration_before_escalation_seconds": 999,
+      "silent_tracking": true
+    },
+    "happiness": {
+      "sensitivity_level": 0.6,
+      "intervention_type": "reinforce_and_log",
+      "primary_actions": ["enhance_ambience", "store_pattern", "light_brightness_increase"],
+      "secondary_actions": [],
+      "action_delay_seconds": 3,
+      "allow_when_alone": true,
+      "allow_when_with_others": true,
+      "minimum_confidence": 0.68,
+      "duration_before_escalation_seconds": 999,
+      "feedback_request": {
+        "enabled": true,
+        "text_message": "Great to see you happy! 😊 Mind sharing what caused it?",
+        "frequency_per_week": 1
+      },
+      "pattern_learning": {
+        "track_time_of_day": true,
+        "track_activity": true,
+        "track_preceding_emotion": true
+      }
+    },
+    "excited": {
+      "sensitivity_level": 0.75,
+      "intervention_type": "energy_management",
+      "primary_actions": ["ambient_energy_lighting", "motivational_audio"],
+      "secondary_actions": ["track_duration"],
+      "action_delay_seconds": 4,
+      "allow_when_alone": true,
+      "allow_when_with_others": true,
+      "minimum_confidence": 0.72,
+      "duration_before_escalation_seconds": 120,
+      "feedback_request": {
+        "enabled": true,
+        "text_message": "You're on fire! 🔥 What's bringing you this energy?",
+        "frequency_per_week": 1
+      },
+      "burnout_protection": {
+        "max_continuous_minutes": 120,
+        "warning_text": "You've been going strong for a while. Pace yourself!",
+        "suggest_break": true
+      }
+    }
+  },
+  "smart_home_devices": {
+    "available_devices": [
+      "smart_lights_main",
+      "smart_lights_desk",
+      "smart_speaker"
+    ],
+    "device_zones": {
+      "living_room": {
+        "devices": ["smart_lights_main"],
+        "is_workspace": false
+      },
+      "home_office": {
+        "devices": ["smart_lights_desk", "smart_speaker"],
+        "is_workspace": true
+      }
+    },
+    "speaker_usage_policy": {
+      "default_state": "silent",
+      "use_only_when": ["critical_emotional_state", "escalated_intervention"],
+      "never_use_during": ["typical_work_hours", "do_not_disturb_hours"]
+    }
+  },
+  "learning_system": {
+    "enabled": true,
+    "track_intervention_outcomes": true,
+    "track_feedback_responses": true,
+    "update_weights_after_sessions": 5,
+    "learning_rate": 0.15,
+    "memory_capacity_days": 30,
+    "interventions_to_track": {
+      "lighting_changes": true,
+      "audio_suggestions": true,
+      "text_messages": true
+    }
+  },
+  "context_awareness": {
+    "detect_working_hours": true,
+    "detect_break_time": true,
+    "detect_meal_time": true,
+    "detect_sleep_time": true,
+    "consider_day_of_week": true,
+    "consider_time_of_day": true,
+    "allow_weekday_work_interventions": true,
+    "allow_weekend_interventions": true
+  },
+  "safety_constraints": {
+    "emergency_emotions": ["anger"],
+    "emergency_confidence_threshold": 0.9,
+    "allow_automatic_contacts": false,
+    "max_voice_interruptions_per_day": 0,
+    "max_text_interruptions_per_day": 2,
+    "require_user_confirmation_for": ["emergency_mode"],
+    "privacy_mode_hours": {
+      "start": "22:00",
+      "end": "08:00"
+    }
+  },
+  "baseline_metrics": {
+    "typical_neutral_confidence": 0.65,
+    "typical_emotion_switch_time_seconds": 120,
+    "average_session_duration_minutes": 45,
+    "typical_peak_stress_time": "18:00",
+    "typical_peak_productivity_time": "15:00",
+    "last_system_message_date": null,
+    "days_without_intervention": 0
+  },
+  "goals": {
+    "primary": "improve_focus_and_productivity",
+    "secondary": ["manage_frustration", "maintain_happiness_patterns"],
+    "emotional_goals": {
+      "reduce_sustained_frustration": {
+        "target_threshold": 0.6,
+        "current_level": 0.75
+      },
+      "increase_happiness_duration": {
+        "target_minutes_per_day": 120,
+        "current_minutes_per_day": 45
+      },
+      "reduce_anger_incidents": {
+        "target_per_week": 2,
+        "current_per_week": 3
+      }
+    }
+  },
+  "room_layout": {
+    "room_name": "Home Office + Living Space",
+    "dimensions": {
+      "width_meters": 5.5,
+      "length_meters": 4.5
+    },
+    "zones": {
+      "home_office": {
+        "position": [0, 0],
+        "dimensions": [2.5, 4.5],
+        "description": "Desk area, workspace",
+        "devices": ["desk_light", "desk_speaker", "door_sensor"]
+      },
+      "living_area": {
+        "position": [2.5, 0],
+        "dimensions": [3, 4.5],
+        "description": "Sofa, relaxation area",
+        "devices": ["main_light"]
+      },
+      "entry": {
+        "position": [5.5, 2],
+        "dimensions": [0, 1],
+        "description": "Door entrance",
+        "devices": ["door_sensor"]
+      }
+    }
+  }
+}

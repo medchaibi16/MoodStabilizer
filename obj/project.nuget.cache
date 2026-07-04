@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "dgSpecHash": "u9VS6Rvmwvg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mohamed chaibi\\Downloads\\pfe\\ActuallApp\\MoodStabilizer\\MoodStabilizer\\MoodStabilizer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mohamed chaibi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\mohamed chaibi\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\mohamed chaibi\\.nuget\\packages\\microsoft.ml.onnxruntime\\1.24.4\\microsoft.ml.onnxruntime.1.24.4.nupkg.sha512",
+    "C:\\Users\\mohamed chaibi\\.nuget\\packages\\microsoft.ml.onnxruntime.managed\\1.24.4\\microsoft.ml.onnxruntime.managed.1.24.4.nupkg.sha512",
+    "C:\\Users\\mohamed chaibi\\.nuget\\packages\\naudio\\2.3.0\\naudio.2.3.0.nupkg.sha512",
+    "C:\\Users\\mohamed chaibi\\.nuget\\packages\\naudio.asio\\2.3.0\\naudio.asio.2.3.0.nupkg.sha512",
+    "C:\\Users\\mohamed chaibi\\.nuget\\packages\\naudio.core\\2.3.0\\naudio.core.2.3.0.nupkg.sha512",
+    "C:\\Users\\mohamed chaibi\\.nuget\\packages\\naudio.midi\\2.3.0\\naudio.midi.2.3.0.nupkg.sha512",
+    "C:\\Users\\mohamed chaibi\\.nuget\\packages\\naudio.wasapi\\2.3.0\\naudio.wasapi.2.3.0.nupkg.sha512",
+    "C:\\Users\\mohamed chaibi\\.nuget\\packages\\naudio.winforms\\2.3.0\\naudio.winforms.2.3.0.nupkg.sha512",
+    "C:\\Users\\mohamed chaibi\\.nuget\\packages\\naudio.winmm\\2.3.0\\naudio.winmm.2.3.0.nupkg.sha512",
+    "C:\\Users\\mohamed chaibi\\.nuget\\packages\\npgsql\\8.0.1\\npgsql.8.0.1.nupkg.sha512",
+    "C:\\Users\\mohamed chaibi\\.nuget\\packages\\opencvsharp4\\4.13.0.20260330\\opencvsharp4.4.13.0.20260330.nupkg.sha512",
+    "C:\\Users\\mohamed chaibi\\.nuget\\packages\\opencvsharp4.extensions\\4.13.0.20260330\\opencvsharp4.extensions.4.13.0.20260330.nupkg.sha512",
+    "C:\\Users\\mohamed chaibi\\.nuget\\packages\\opencvsharp4.runtime.win\\4.13.0.20260302\\opencvsharp4.runtime.win.4.13.0.20260302.nupkg.sha512",
+    "C:\\Users\\mohamed chaibi\\.nuget\\packages\\system.numerics.tensors\\9.0.0\\system.numerics.tensors.9.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Npgsql' 8.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-x9vc-6hfv-hg8c",
+      "projectPath": "C:\\Users\\mohamed chaibi\\Downloads\\pfe\\ActuallApp\\MoodStabilizer\\MoodStabilizer\\MoodStabilizer.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\mohamed chaibi\\Downloads\\pfe\\ActuallApp\\MoodStabilizer\\MoodStabilizer\\MoodStabilizer.csproj",
+      "libraryId": "Npgsql",
+      "targetGraphs": [
+        "net10.0-windows7.0"
+      ]
+    }
+  ]
+}
